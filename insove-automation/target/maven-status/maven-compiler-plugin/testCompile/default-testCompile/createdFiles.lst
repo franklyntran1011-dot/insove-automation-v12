@@ -1,0 +1,5 @@
+com\insove\tests\HomePageTest.class
+com\insove\tests\ProfileTest.class
+com\insove\tests\BaseTest.class
+com\insove\tests\BookingTest.class
+com\insove\tests\AuthenticationTest.class

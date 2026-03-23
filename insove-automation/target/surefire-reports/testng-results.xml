@@ -1,0 +1,2100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="66" passed="59" failed="7" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-23T13:30:20 ICT" name="Insove Automation Suite" finished-at="2026-03-23T13:47:54 ICT" duration-ms="1053651">
+    <groups>
+    </groups>
+    <test started-at="2026-03-23T13:30:20 ICT" name="Authentication Tests" finished-at="2026-03-23T13:34:03 ICT" duration-ms="222667">
+      <class name="com.insove.tests.AuthenticationTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9]" started-at="2026-03-23T13:30:20 ICT" name="setUp" finished-at="2026-03-23T13:30:23 ICT" duration-ms="3175" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.AuthenticationTest.auth001_verifyLoginPageDisplay()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="auth001_verifyLoginPageDisplay()[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9]" started-at="2026-03-23T13:30:23 ICT" name="auth001_verifyLoginPageDisplay" description="[Auth001] Xác minh hiển thị chính xác của trang Đăng nhập" finished-at="2026-03-23T13:30:25 ICT" duration-ms="1474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- auth001_verifyLoginPageDisplay -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9]" started-at="2026-03-23T13:30:25 ICT" name="tearDown" finished-at="2026-03-23T13:30:25 ICT" duration-ms="400" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=auth001_verifyLoginPageDisplay status=SUCCESS method=AuthenticationTest.auth001_verifyLoginPageDisplay()[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9]" started-at="2026-03-23T13:30:25 ICT" name="setUp" finished-at="2026-03-23T13:30:26 ICT" duration-ms="1038" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.AuthenticationTest.auth004_verifyPlaceholderText()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="auth004_verifyPlaceholderText()[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9]" started-at="2026-03-23T13:30:26 ICT" name="auth004_verifyPlaceholderText" description="[Auth004] Xác minh placeholder text của các trường nhập liệu" finished-at="2026-03-23T13:30:27 ICT" duration-ms="1027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- auth004_verifyPlaceholderText -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9]" started-at="2026-03-23T13:30:27 ICT" name="tearDown" finished-at="2026-03-23T13:30:28 ICT" duration-ms="275" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=auth004_verifyPlaceholderText status=SUCCESS method=AuthenticationTest.auth004_verifyPlaceholderText()[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9]" started-at="2026-03-23T13:30:28 ICT" name="setUp" finished-at="2026-03-23T13:30:29 ICT" duration-ms="1076" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.AuthenticationTest.auth006_navigateToRegister()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="auth006_navigateToRegister()[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9]" started-at="2026-03-23T13:30:29 ICT" name="auth006_navigateToRegister" description="[Auth006] Xác minh điều hướng đến trang Đăng ký" finished-at="2026-03-23T13:30:32 ICT" duration-ms="3105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- auth006_navigateToRegister -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9]" started-at="2026-03-23T13:30:32 ICT" name="tearDown" finished-at="2026-03-23T13:30:32 ICT" duration-ms="273" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=auth006_navigateToRegister status=SUCCESS method=AuthenticationTest.auth006_navigateToRegister()[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9]" started-at="2026-03-23T13:30:32 ICT" name="setUp" finished-at="2026-03-23T13:30:33 ICT" duration-ms="972" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.AuthenticationTest.auth007_navigateToForgotPassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="auth007_navigateToForgotPassword()[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9]" started-at="2026-03-23T13:30:33 ICT" name="auth007_navigateToForgotPassword" description="[Auth007] Xác minh điều hướng đến trang Quên Mật Khẩu" finished-at="2026-03-23T13:30:36 ICT" duration-ms="3147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- auth007_navigateToForgotPassword -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9]" started-at="2026-03-23T13:30:36 ICT" name="tearDown" finished-at="2026-03-23T13:30:36 ICT" duration-ms="257" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=auth007_navigateToForgotPassword status=SUCCESS method=AuthenticationTest.auth007_navigateToForgotPassword()[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9]" started-at="2026-03-23T13:30:36 ICT" name="setUp" finished-at="2026-03-23T13:30:38 ICT" duration-ms="1008" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.AuthenticationTest.auth013_passwordFieldIsHidden()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="auth013_passwordFieldIsHidden()[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9]" started-at="2026-03-23T13:30:38 ICT" name="auth013_passwordFieldIsHidden" description="[Auth013] Xác minh trường mật khẩu ẩn ký tự (type=password)" finished-at="2026-03-23T13:30:38 ICT" duration-ms="991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- auth013_passwordFieldIsHidden -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9]" started-at="2026-03-23T13:30:38 ICT" name="tearDown" finished-at="2026-03-23T13:30:39 ICT" duration-ms="385" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=auth013_passwordFieldIsHidden status=SUCCESS method=AuthenticationTest.auth013_passwordFieldIsHidden()[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9]" started-at="2026-03-23T13:30:39 ICT" name="setUp" finished-at="2026-03-23T13:30:40 ICT" duration-ms="1171" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.AuthenticationTest.auth017_loginFailWrongUsername()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="auth017_loginFailWrongUsername()[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9]" started-at="2026-03-23T13:30:40 ICT" name="auth017_loginFailWrongUsername" description="[Auth017] Xác minh đăng nhập thất bại với username không tồn tại" finished-at="2026-03-23T13:31:15 ICT" duration-ms="35047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- auth017_loginFailWrongUsername -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9]" started-at="2026-03-23T13:31:15 ICT" name="tearDown" finished-at="2026-03-23T13:31:15 ICT" duration-ms="281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=auth017_loginFailWrongUsername status=SUCCESS method=AuthenticationTest.auth017_loginFailWrongUsername()[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9]" started-at="2026-03-23T13:31:15 ICT" name="setUp" finished-at="2026-03-23T13:31:16 ICT" duration-ms="1064" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.AuthenticationTest.auth018_loginFailWrongPassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="auth018_loginFailWrongPassword()[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9]" started-at="2026-03-23T13:31:16 ICT" name="auth018_loginFailWrongPassword" description="[Auth018] Xác minh đăng nhập thất bại với mật khẩu sai" finished-at="2026-03-23T13:31:52 ICT" duration-ms="35169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- auth018_loginFailWrongPassword -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9]" started-at="2026-03-23T13:31:52 ICT" name="tearDown" finished-at="2026-03-23T13:31:52 ICT" duration-ms="399" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=auth018_loginFailWrongPassword status=SUCCESS method=AuthenticationTest.auth018_loginFailWrongPassword()[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9]" started-at="2026-03-23T13:31:52 ICT" name="setUp" finished-at="2026-03-23T13:31:53 ICT" duration-ms="1351" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.AuthenticationTest.auth019_loginFailEmptyFields()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="auth019_loginFailEmptyFields()[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9]" started-at="2026-03-23T13:31:53 ICT" name="auth019_loginFailEmptyFields" description="[Auth019] Thông báo lỗi khi để trống trường đăng nhập" finished-at="2026-03-23T13:32:28 ICT" duration-ms="34795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- auth019_loginFailEmptyFields -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9]" started-at="2026-03-23T13:32:28 ICT" name="tearDown" finished-at="2026-03-23T13:32:28 ICT" duration-ms="310" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=auth019_loginFailEmptyFields status=SUCCESS method=AuthenticationTest.auth019_loginFailEmptyFields()[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9]" started-at="2026-03-23T13:32:28 ICT" name="setUp" finished-at="2026-03-23T13:32:30 ICT" duration-ms="1020" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.AuthenticationTest.auth033_verifyForgotPasswordPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="auth033_verifyForgotPasswordPage()[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9]" started-at="2026-03-23T13:32:30 ICT" name="auth033_verifyForgotPasswordPage" description="[Auth033] Xác minh hiển thị chính xác trang Quên Mật Khẩu" finished-at="2026-03-23T13:32:31 ICT" duration-ms="1302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- auth033_verifyForgotPasswordPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9]" started-at="2026-03-23T13:32:31 ICT" name="tearDown" finished-at="2026-03-23T13:32:31 ICT" duration-ms="278" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=auth033_verifyForgotPasswordPage status=SUCCESS method=AuthenticationTest.auth033_verifyForgotPasswordPage()[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9]" started-at="2026-03-23T13:32:31 ICT" name="setUp" finished-at="2026-03-23T13:32:32 ICT" duration-ms="973" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.AuthenticationTest.auth041_forgotPasswordEmailNotExist()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="auth041_forgotPasswordEmailNotExist()[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9]" started-at="2026-03-23T13:32:32 ICT" name="auth041_forgotPasswordEmailNotExist" description="[Auth041] Gửi yêu cầu đặt lại mật khẩu với email không tồn tại" finished-at="2026-03-23T13:32:50 ICT" duration-ms="18254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- auth041_forgotPasswordEmailNotExist -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9]" started-at="2026-03-23T13:32:50 ICT" name="tearDown" finished-at="2026-03-23T13:32:51 ICT" duration-ms="262" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=auth041_forgotPasswordEmailNotExist status=SUCCESS method=AuthenticationTest.auth041_forgotPasswordEmailNotExist()[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9]" started-at="2026-03-23T13:32:51 ICT" name="setUp" finished-at="2026-03-23T13:32:52 ICT" duration-ms="943" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.AuthenticationTest.auth042_forgotPasswordEmptyEmail()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="auth042_forgotPasswordEmptyEmail()[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9]" started-at="2026-03-23T13:32:52 ICT" name="auth042_forgotPasswordEmptyEmail" description="[Auth042] Gửi yêu cầu đặt lại mật khẩu khi để trống email" finished-at="2026-03-23T13:32:55 ICT" duration-ms="3035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- auth042_forgotPasswordEmptyEmail -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9]" started-at="2026-03-23T13:32:55 ICT" name="tearDown" finished-at="2026-03-23T13:32:55 ICT" duration-ms="270" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=auth042_forgotPasswordEmptyEmail status=SUCCESS method=AuthenticationTest.auth042_forgotPasswordEmptyEmail()[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9]" started-at="2026-03-23T13:32:55 ICT" name="setUp" finished-at="2026-03-23T13:32:56 ICT" duration-ms="958" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.AuthenticationTest.auth043_forgotPasswordInvalidEmailFormat()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="auth043_forgotPasswordInvalidEmailFormat()[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9]" started-at="2026-03-23T13:32:56 ICT" name="auth043_forgotPasswordInvalidEmailFormat" description="[Auth043] Gửi yêu cầu đặt lại mật khẩu với email sai định dạng" finished-at="2026-03-23T13:33:14 ICT" duration-ms="18348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- auth043_forgotPasswordInvalidEmailFormat -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9]" started-at="2026-03-23T13:33:14 ICT" name="tearDown" finished-at="2026-03-23T13:33:14 ICT" duration-ms="341" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=auth043_forgotPasswordInvalidEmailFormat status=SUCCESS method=AuthenticationTest.auth043_forgotPasswordInvalidEmailFormat()[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9]" started-at="2026-03-23T13:33:14 ICT" name="setUp" finished-at="2026-03-23T13:33:16 ICT" duration-ms="1050" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.AuthenticationTest.auth056_verifyRegisterPageDisplay()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="auth056_verifyRegisterPageDisplay()[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9]" started-at="2026-03-23T13:33:16 ICT" name="auth056_verifyRegisterPageDisplay" description="[Auth056] Xác minh hiển thị chính xác các thành phần trang Đăng ký" finished-at="2026-03-23T13:33:17 ICT" duration-ms="1067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- auth056_verifyRegisterPageDisplay -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9]" started-at="2026-03-23T13:33:17 ICT" name="tearDown" finished-at="2026-03-23T13:33:18 ICT" duration-ms="1486" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=auth056_verifyRegisterPageDisplay status=SUCCESS method=AuthenticationTest.auth056_verifyRegisterPageDisplay()[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9]" started-at="2026-03-23T13:33:18 ICT" name="setUp" finished-at="2026-03-23T13:33:19 ICT" duration-ms="975" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.AuthenticationTest.auth065_registerEmptyRequiredFields()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="auth065_registerEmptyRequiredFields()[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9]" started-at="2026-03-23T13:33:19 ICT" name="auth065_registerEmptyRequiredFields" description="[Auth065] Xác minh thông báo lỗi khi để trống các trường bắt buộc khi đăng ký" finished-at="2026-03-23T13:33:38 ICT" duration-ms="18654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- auth065_registerEmptyRequiredFields -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9]" started-at="2026-03-23T13:33:38 ICT" name="tearDown" finished-at="2026-03-23T13:33:38 ICT" duration-ms="314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=auth065_registerEmptyRequiredFields status=SUCCESS method=AuthenticationTest.auth065_registerEmptyRequiredFields()[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9]" started-at="2026-03-23T13:33:38 ICT" name="setUp" finished-at="2026-03-23T13:33:39 ICT" duration-ms="1040" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.AuthenticationTest.auth068_passwordMismatch()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="auth068_passwordMismatch()[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9]" started-at="2026-03-23T13:33:39 ICT" name="auth068_passwordMismatch" description="[Auth068] Xác minh lỗi khi Password và Confirm Password không khớp" finished-at="2026-03-23T13:33:58 ICT" duration-ms="18668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- auth068_passwordMismatch -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9]" started-at="2026-03-23T13:33:58 ICT" name="tearDown" finished-at="2026-03-23T13:33:58 ICT" duration-ms="314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=auth068_passwordMismatch status=SUCCESS method=AuthenticationTest.auth068_passwordMismatch()[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9]" started-at="2026-03-23T13:33:58 ICT" name="setUp" finished-at="2026-03-23T13:33:59 ICT" duration-ms="967" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.AuthenticationTest.auth076_loginLinkOnRegisterPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="auth076_loginLinkOnRegisterPage()[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9]" started-at="2026-03-23T13:33:59 ICT" name="auth076_loginLinkOnRegisterPage" description="[Auth076] Xác minh link &#039;Already have an account? Login here&#039; điều hướng đến trang Đăng nhập" finished-at="2026-03-23T13:34:03 ICT" duration-ms="3496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- auth076_loginLinkOnRegisterPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9]" started-at="2026-03-23T13:34:03 ICT" name="tearDown" finished-at="2026-03-23T13:34:03 ICT" duration-ms="334" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=auth076_loginLinkOnRegisterPage status=SUCCESS method=AuthenticationTest.auth076_loginLinkOnRegisterPage()[pri:0, instance:com.insove.tests.AuthenticationTest@465232e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.insove.tests.AuthenticationTest -->
+    </test> <!-- Authentication Tests -->
+    <test started-at="2026-03-23T13:34:03 ICT" name="HomePage Tests" finished-at="2026-03-23T13:38:08 ICT" duration-ms="244143">
+      <class name="com.insove.tests.HomePageTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.HomePageTest@78fa769e]" started-at="2026-03-23T13:34:03 ICT" name="setUp" finished-at="2026-03-23T13:34:04 ICT" duration-ms="1015" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.HomePageTest.home001_verifyHomepageOverview()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="home001_verifyHomepageOverview()[pri:0, instance:com.insove.tests.HomePageTest@78fa769e]" started-at="2026-03-23T13:34:04 ICT" name="home001_verifyHomepageOverview" description="[Home001] Xac minh hien thi tong quan trang chu" finished-at="2026-03-23T13:34:08 ICT" duration-ms="3163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home001_verifyHomepageOverview -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.HomePageTest@78fa769e]" started-at="2026-03-23T13:34:08 ICT" name="tearDown" finished-at="2026-03-23T13:34:08 ICT" duration-ms="231" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=home001_verifyHomepageOverview status=SUCCESS method=HomePageTest.home001_verifyHomepageOverview()[pri:0, instance:com.insove.tests.HomePageTest@78fa769e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.HomePageTest@78fa769e]" started-at="2026-03-23T13:34:08 ICT" name="setUp" finished-at="2026-03-23T13:34:09 ICT" duration-ms="1087" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.HomePageTest.home004_verifyLogoDisplay()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="home004_verifyLogoDisplay()[pri:0, instance:com.insove.tests.HomePageTest@78fa769e]" started-at="2026-03-23T13:34:09 ICT" name="home004_verifyLogoDisplay" description="[Home004] Xac minh hien thi logo" finished-at="2026-03-23T13:34:12 ICT" duration-ms="2979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home004_verifyLogoDisplay -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.HomePageTest@78fa769e]" started-at="2026-03-23T13:34:12 ICT" name="tearDown" finished-at="2026-03-23T13:34:14 ICT" duration-ms="1807" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=home004_verifyLogoDisplay status=SUCCESS method=HomePageTest.home004_verifyLogoDisplay()[pri:0, instance:com.insove.tests.HomePageTest@78fa769e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.HomePageTest@78fa769e]" started-at="2026-03-23T13:34:14 ICT" name="setUp" finished-at="2026-03-23T13:34:15 ICT" duration-ms="876" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.HomePageTest.home005_verifyMainMenuItems()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="home005_verifyMainMenuItems()[pri:0, instance:com.insove.tests.HomePageTest@78fa769e]" started-at="2026-03-23T13:34:15 ICT" name="home005_verifyMainMenuItems" description="[Home005] Xac minh cac muc menu chinh" finished-at="2026-03-23T13:34:17 ICT" duration-ms="2766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home005_verifyMainMenuItems -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.HomePageTest@78fa769e]" started-at="2026-03-23T13:34:17 ICT" name="tearDown" finished-at="2026-03-23T13:34:18 ICT" duration-ms="261" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=home005_verifyMainMenuItems status=SUCCESS method=HomePageTest.home005_verifyMainMenuItems()[pri:0, instance:com.insove.tests.HomePageTest@78fa769e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.HomePageTest@78fa769e]" started-at="2026-03-23T13:34:18 ICT" name="setUp" finished-at="2026-03-23T13:34:19 ICT" duration-ms="945" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.HomePageTest.home008_verifyStickyHeader()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="home008_verifyStickyHeader()[pri:0, instance:com.insove.tests.HomePageTest@78fa769e]" started-at="2026-03-23T13:34:19 ICT" name="home008_verifyStickyHeader" description="[Home008] Xac minh sticky header" finished-at="2026-03-23T13:34:22 ICT" duration-ms="3428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home008_verifyStickyHeader -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.HomePageTest@78fa769e]" started-at="2026-03-23T13:34:22 ICT" name="tearDown" finished-at="2026-03-23T13:34:22 ICT" duration-ms="249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=home008_verifyStickyHeader status=SUCCESS method=HomePageTest.home008_verifyStickyHeader()[pri:0, instance:com.insove.tests.HomePageTest@78fa769e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.HomePageTest@78fa769e]" started-at="2026-03-23T13:34:22 ICT" name="setUp" finished-at="2026-03-23T13:34:23 ICT" duration-ms="982" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.HomePageTest.home012_verifyHeroTitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="home012_verifyHeroTitle()[pri:0, instance:com.insove.tests.HomePageTest@78fa769e]" started-at="2026-03-23T13:34:23 ICT" name="home012_verifyHeroTitle" description="[Home012] Xac minh hero title hien thi" finished-at="2026-03-23T13:35:41 ICT" duration-ms="77983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home012_verifyHeroTitle -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.HomePageTest@78fa769e]" started-at="2026-03-23T13:35:41 ICT" name="tearDown" finished-at="2026-03-23T13:35:41 ICT" duration-ms="271" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=home012_verifyHeroTitle status=SUCCESS method=HomePageTest.home012_verifyHeroTitle()[pri:0, instance:com.insove.tests.HomePageTest@78fa769e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.HomePageTest@78fa769e]" started-at="2026-03-23T13:35:41 ICT" name="setUp" finished-at="2026-03-23T13:35:42 ICT" duration-ms="1004" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.HomePageTest.home014_verifyContactButton()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="home014_verifyContactButton()[pri:0, instance:com.insove.tests.HomePageTest@78fa769e]" started-at="2026-03-23T13:35:42 ICT" name="home014_verifyContactButton" description="[Home014] Xac minh nut LIEN HE trong Hero Section" finished-at="2026-03-23T13:36:16 ICT" duration-ms="33068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home014_verifyContactButton -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.HomePageTest@78fa769e]" started-at="2026-03-23T13:36:16 ICT" name="tearDown" finished-at="2026-03-23T13:36:16 ICT" duration-ms="315" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=home014_verifyContactButton status=SUCCESS method=HomePageTest.home014_verifyContactButton()[pri:0, instance:com.insove.tests.HomePageTest@78fa769e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.HomePageTest@78fa769e]" started-at="2026-03-23T13:36:16 ICT" name="setUp" finished-at="2026-03-23T13:36:17 ICT" duration-ms="996" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.HomePageTest.home022_verifyFaqTitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="home022_verifyFaqTitle()[pri:0, instance:com.insove.tests.HomePageTest@78fa769e]" started-at="2026-03-23T13:36:17 ICT" name="home022_verifyFaqTitle" description="[Home022] Xac minh FAQ section hien thi" finished-at="2026-03-23T13:36:20 ICT" duration-ms="3177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home022_verifyFaqTitle -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.HomePageTest@78fa769e]" started-at="2026-03-23T13:36:20 ICT" name="tearDown" finished-at="2026-03-23T13:36:20 ICT" duration-ms="244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=home022_verifyFaqTitle status=SUCCESS method=HomePageTest.home022_verifyFaqTitle()[pri:0, instance:com.insove.tests.HomePageTest@78fa769e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.HomePageTest@78fa769e]" started-at="2026-03-23T13:36:20 ICT" name="setUp" finished-at="2026-03-23T13:36:21 ICT" duration-ms="986" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.HomePageTest.home023_verifyFaqInteractable()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="home023_verifyFaqInteractable()[pri:0, instance:com.insove.tests.HomePageTest@78fa769e]" started-at="2026-03-23T13:36:21 ICT" name="home023_verifyFaqInteractable" description="[Home023] Xac minh FAQ items co the tuong tac" finished-at="2026-03-23T13:36:24 ICT" duration-ms="3061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home023_verifyFaqInteractable -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.HomePageTest@78fa769e]" started-at="2026-03-23T13:36:24 ICT" name="tearDown" finished-at="2026-03-23T13:36:25 ICT" duration-ms="239" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=home023_verifyFaqInteractable status=SUCCESS method=HomePageTest.home023_verifyFaqInteractable()[pri:0, instance:com.insove.tests.HomePageTest@78fa769e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.HomePageTest@78fa769e]" started-at="2026-03-23T13:36:25 ICT" name="setUp" finished-at="2026-03-23T13:36:25 ICT" duration-ms="900" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.HomePageTest.home029_verifyRecentArticlesTitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="home029_verifyRecentArticlesTitle()[pri:0, instance:com.insove.tests.HomePageTest@78fa769e]" started-at="2026-03-23T13:36:25 ICT" name="home029_verifyRecentArticlesTitle" description="[Home029] Xac minh phan bai viet hien thi" finished-at="2026-03-23T13:36:28 ICT" duration-ms="2789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home029_verifyRecentArticlesTitle -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.HomePageTest@78fa769e]" started-at="2026-03-23T13:36:28 ICT" name="tearDown" finished-at="2026-03-23T13:36:29 ICT" duration-ms="248" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=home029_verifyRecentArticlesTitle status=SUCCESS method=HomePageTest.home029_verifyRecentArticlesTitle()[pri:0, instance:com.insove.tests.HomePageTest@78fa769e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.HomePageTest@78fa769e]" started-at="2026-03-23T13:36:29 ICT" name="setUp" finished-at="2026-03-23T13:36:29 ICT" duration-ms="974" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.HomePageTest.home030_verifyMinThreeArticles()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="home030_verifyMinThreeArticles()[pri:0, instance:com.insove.tests.HomePageTest@78fa769e]" started-at="2026-03-23T13:36:29 ICT" name="home030_verifyMinThreeArticles" description="[Home030] Xac minh hien thi it nhat 3 bai viet" finished-at="2026-03-23T13:36:48 ICT" duration-ms="18848" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Can it nhat 1 bai viet. Hien co: 0 expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Can it nhat 1 bai viet. Hien co: 0 expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.insove.tests.HomePageTest.home030_verifyMinThreeArticles(HomePageTest.java:93)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home030_verifyMinThreeArticles -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.HomePageTest@78fa769e]" started-at="2026-03-23T13:36:49 ICT" name="tearDown" finished-at="2026-03-23T13:36:49 ICT" duration-ms="620" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=home030_verifyMinThreeArticles status=FAILURE method=HomePageTest.home030_verifyMinThreeArticles()[pri:0, instance:com.insove.tests.HomePageTest@78fa769e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.HomePageTest@78fa769e]" started-at="2026-03-23T13:36:49 ICT" name="setUp" finished-at="2026-03-23T13:36:50 ICT" duration-ms="995" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.HomePageTest.home037_verifyCopyright()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="home037_verifyCopyright()[pri:0, instance:com.insove.tests.HomePageTest@78fa769e]" started-at="2026-03-23T13:36:50 ICT" name="home037_verifyCopyright" description="[Home037] Xac minh copyright footer hien thi" finished-at="2026-03-23T13:36:53 ICT" duration-ms="2807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home037_verifyCopyright -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.HomePageTest@78fa769e]" started-at="2026-03-23T13:36:53 ICT" name="tearDown" finished-at="2026-03-23T13:36:53 ICT" duration-ms="283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=home037_verifyCopyright status=SUCCESS method=HomePageTest.home037_verifyCopyright()[pri:0, instance:com.insove.tests.HomePageTest@78fa769e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.HomePageTest@78fa769e]" started-at="2026-03-23T13:36:53 ICT" name="setUp" finished-at="2026-03-23T13:36:54 ICT" duration-ms="979" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.HomePageTest.home053_verifySubscribeForm()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="home053_verifySubscribeForm()[pri:0, instance:com.insove.tests.HomePageTest@78fa769e]" started-at="2026-03-23T13:36:54 ICT" name="home053_verifySubscribeForm" description="[Home053] Xac minh Subscribe form hien thi" finished-at="2026-03-23T13:36:58 ICT" duration-ms="3556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home053_verifySubscribeForm -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.HomePageTest@78fa769e]" started-at="2026-03-23T13:36:58 ICT" name="tearDown" finished-at="2026-03-23T13:36:58 ICT" duration-ms="255" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=home053_verifySubscribeForm status=SUCCESS method=HomePageTest.home053_verifySubscribeForm()[pri:0, instance:com.insove.tests.HomePageTest@78fa769e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.HomePageTest@78fa769e]" started-at="2026-03-23T13:36:58 ICT" name="setUp" finished-at="2026-03-23T13:36:59 ICT" duration-ms="901" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.HomePageTest.home055_subscribeInvalidEmail()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="home055_subscribeInvalidEmail()[pri:0, instance:com.insove.tests.HomePageTest@78fa769e]" started-at="2026-03-23T13:36:59 ICT" name="home055_subscribeInvalidEmail" description="[Home055] Dang ky email khong hop le" finished-at="2026-03-23T13:37:32 ICT" duration-ms="33332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home055_subscribeInvalidEmail -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.HomePageTest@78fa769e]" started-at="2026-03-23T13:37:32 ICT" name="tearDown" finished-at="2026-03-23T13:37:33 ICT" duration-ms="280" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=home055_subscribeInvalidEmail status=SUCCESS method=HomePageTest.home055_subscribeInvalidEmail()[pri:0, instance:com.insove.tests.HomePageTest@78fa769e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.HomePageTest@78fa769e]" started-at="2026-03-23T13:37:33 ICT" name="setUp" finished-at="2026-03-23T13:37:34 ICT" duration-ms="1005" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.HomePageTest.home056_subscribeEmptyEmail()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="home056_subscribeEmptyEmail()[pri:0, instance:com.insove.tests.HomePageTest@78fa769e]" started-at="2026-03-23T13:37:34 ICT" name="home056_subscribeEmptyEmail" description="[Home056] De trong email va xac minh loi" finished-at="2026-03-23T13:38:07 ICT" duration-ms="33611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home056_subscribeEmptyEmail -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.HomePageTest@78fa769e]" started-at="2026-03-23T13:38:07 ICT" name="tearDown" finished-at="2026-03-23T13:38:08 ICT" duration-ms="315" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=home056_subscribeEmptyEmail status=SUCCESS method=HomePageTest.home056_subscribeEmptyEmail()[pri:0, instance:com.insove.tests.HomePageTest@78fa769e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.insove.tests.HomePageTest -->
+    </test> <!-- HomePage Tests -->
+    <test started-at="2026-03-23T13:38:08 ICT" name="Booking Tests" finished-at="2026-03-23T13:44:57 ICT" duration-ms="409042">
+      <class name="com.insove.tests.BookingTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:38:08 ICT" name="setUp" finished-at="2026-03-23T13:38:09 ICT" duration-ms="956" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.BookingTest.book001_verifyAllSectionsDisplayed()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="book001_verifyAllSectionsDisplayed()[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:38:09 ICT" name="book001_verifyAllSectionsDisplayed" description="[Book001] Xác minh hiển thị đầy đủ các phần trên trang Đặt lịch khám" finished-at="2026-03-23T13:38:14 ICT" duration-ms="5695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- book001_verifyAllSectionsDisplayed -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:38:14 ICT" name="tearDown" finished-at="2026-03-23T13:38:15 ICT" duration-ms="270" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=book001_verifyAllSectionsDisplayed status=SUCCESS method=BookingTest.book001_verifyAllSectionsDisplayed()[pri:0, instance:com.insove.tests.BookingTest@222a59e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:38:15 ICT" name="setUp" finished-at="2026-03-23T13:38:16 ICT" duration-ms="921" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.BookingTest.book003_verifyLabelsAndPlaceholders()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="book003_verifyLabelsAndPlaceholders()[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:38:16 ICT" name="book003_verifyLabelsAndPlaceholders" description="[Book003] Xác minh độ chính xác và dễ hiểu của nhãn, placeholder" finished-at="2026-03-23T13:38:21 ICT" duration-ms="5359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- book003_verifyLabelsAndPlaceholders -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:38:21 ICT" name="tearDown" finished-at="2026-03-23T13:38:21 ICT" duration-ms="239" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=book003_verifyLabelsAndPlaceholders status=SUCCESS method=BookingTest.book003_verifyLabelsAndPlaceholders()[pri:0, instance:com.insove.tests.BookingTest@222a59e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:38:21 ICT" name="setUp" finished-at="2026-03-23T13:38:22 ICT" duration-ms="878" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.BookingTest.book006_verifyPageLoadTime()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="book006_verifyPageLoadTime()[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:38:22 ICT" name="book006_verifyPageLoadTime" description="[Book006] Kiểm tra thời gian tải trang Đặt lịch khám (&lt; 5 giây)" finished-at="2026-03-23T13:38:26 ICT" duration-ms="4423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- book006_verifyPageLoadTime -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:38:26 ICT" name="tearDown" finished-at="2026-03-23T13:38:27 ICT" duration-ms="249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=book006_verifyPageLoadTime status=SUCCESS method=BookingTest.book006_verifyPageLoadTime()[pri:0, instance:com.insove.tests.BookingTest@222a59e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:38:27 ICT" name="setUp" finished-at="2026-03-23T13:38:28 ICT" duration-ms="906" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.BookingTest.book008_verifyBranchDropdown()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="book008_verifyBranchDropdown()[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:38:28 ICT" name="book008_verifyBranchDropdown" description="[Book008] Kiểm tra hoạt động của dropdown Chọn chi nhánh" finished-at="2026-03-23T13:39:04 ICT" duration-ms="36048" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Dropdown chi nhánh không có lựa chọn nào expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Dropdown chi nhánh không có lựa chọn nào expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.insove.tests.BookingTest.book008_verifyBranchDropdown(BookingTest.java:106)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- book008_verifyBranchDropdown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:39:04 ICT" name="tearDown" finished-at="2026-03-23T13:39:04 ICT" duration-ms="488" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=book008_verifyBranchDropdown status=FAILURE method=BookingTest.book008_verifyBranchDropdown()[pri:0, instance:com.insove.tests.BookingTest@222a59e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:39:04 ICT" name="setUp" finished-at="2026-03-23T13:39:05 ICT" duration-ms="937" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.BookingTest.book009_verifyBranchList()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="book009_verifyBranchList()[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:39:05 ICT" name="book009_verifyBranchList" description="[Book009] Xác minh danh sách chi nhánh hiển thị trong dropdown" finished-at="2026-03-23T13:39:41 ICT" duration-ms="36030" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Phải có ít nhất 1 chi nhánh trong dropdown expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Phải có ít nhất 1 chi nhánh trong dropdown expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.insove.tests.BookingTest.book009_verifyBranchList(BookingTest.java:121)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- book009_verifyBranchList -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:39:41 ICT" name="tearDown" finished-at="2026-03-23T13:39:42 ICT" duration-ms="485" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=book009_verifyBranchList status=FAILURE method=BookingTest.book009_verifyBranchList()[pri:0, instance:com.insove.tests.BookingTest@222a59e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:39:42 ICT" name="setUp" finished-at="2026-03-23T13:39:43 ICT" duration-ms="974" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.BookingTest.book010_errorWhenNoBranchSelected()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="book010_errorWhenNoBranchSelected()[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:39:43 ICT" name="book010_errorWhenNoBranchSelected" description="[Book010] Kiểm tra thông báo lỗi khi không chọn chi nhánh" finished-at="2026-03-23T13:40:04 ICT" duration-ms="20837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- book010_errorWhenNoBranchSelected -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:40:04 ICT" name="tearDown" finished-at="2026-03-23T13:40:04 ICT" duration-ms="272" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=book010_errorWhenNoBranchSelected status=SUCCESS method=BookingTest.book010_errorWhenNoBranchSelected()[pri:0, instance:com.insove.tests.BookingTest@222a59e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:40:04 ICT" name="setUp" finished-at="2026-03-23T13:40:05 ICT" duration-ms="945" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.BookingTest.book011_doctorListUpdatesByBranch()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="book011_doctorListUpdatesByBranch()[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:40:05 ICT" name="book011_doctorListUpdatesByBranch" description="[Book011] Xác minh danh sách bác sĩ cập nhật theo chi nhánh đã chọn" finished-at="2026-03-23T13:41:00 ICT" duration-ms="55126" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout: Timed out receiving message from renderer: -0.015
+  (Session info: chrome=146.0.7680.153)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a4fee9f94b265486a3726e09dc2cb795, get {url=https://demo6.cybersoft.edu.vn/booking}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.153, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51007}, goog:processID: 21076, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51007/devtoo..., se:cdpVersion: 146.0.7680.153, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a4fee9f94b265486a3726e09dc2cb795]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: -0.015
+  (Session info: chrome=146.0.7680.153)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a4fee9f94b265486a3726e09dc2cb795, get {url=https://demo6.cybersoft.edu.vn/booking}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.153, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51007}, goog:processID: 21076, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51007/devtoo..., se:cdpVersion: 146.0.7680.153, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a4fee9f94b265486a3726e09dc2cb795
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+at com.insove.pages.BasePage.navigateTo(BasePage.java:30)
+at com.insove.pages.BookingPage.open(BookingPage.java:59)
+at com.insove.tests.BookingTest.loginAndOpenBooking(BookingTest.java:29)
+at com.insove.tests.BookingTest.book011_doctorListUpdatesByBranch(BookingTest.java:151)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- book011_doctorListUpdatesByBranch -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:41:00 ICT" name="tearDown" finished-at="2026-03-23T13:41:01 ICT" duration-ms="428" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=book011_doctorListUpdatesByBranch status=FAILURE method=BookingTest.book011_doctorListUpdatesByBranch()[pri:0, instance:com.insove.tests.BookingTest@222a59e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:41:01 ICT" name="setUp" finished-at="2026-03-23T13:41:02 ICT" duration-ms="1670" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.BookingTest.book018_verifyCalendarShowsCurrentMonth()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="book018_verifyCalendarShowsCurrentMonth()[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:41:03 ICT" name="book018_verifyCalendarShowsCurrentMonth" description="[Book018] Xác minh lịch hiển thị tháng và năm hiện tại chính xác" finished-at="2026-03-23T13:41:04 ICT" duration-ms="1384" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=146.0.7680.153)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e520a58da0d0f8eb83bf90b6416dc781, get {url=https://demo6.cybersoft.edu.vn/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.153, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64530}, goog:processID: 4504, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64530/devtoo..., se:cdpVersion: 146.0.7680.153, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e520a58da0d0f8eb83bf90b6416dc781]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=146.0.7680.153)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e520a58da0d0f8eb83bf90b6416dc781, get {url=https://demo6.cybersoft.edu.vn/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.153, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64530}, goog:processID: 4504, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64530/devtoo..., se:cdpVersion: 146.0.7680.153, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e520a58da0d0f8eb83bf90b6416dc781
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+at com.insove.pages.BasePage.navigateTo(BasePage.java:30)
+at com.insove.pages.LoginPage.open(LoginPage.java:32)
+at com.insove.tests.BookingTest.loginAndOpenBooking(BookingTest.java:22)
+at com.insove.tests.BookingTest.book018_verifyCalendarShowsCurrentMonth(BookingTest.java:169)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- book018_verifyCalendarShowsCurrentMonth -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:41:04 ICT" name="tearDown" finished-at="2026-03-23T13:41:05 ICT" duration-ms="501" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=book018_verifyCalendarShowsCurrentMonth status=FAILURE method=BookingTest.book018_verifyCalendarShowsCurrentMonth()[pri:0, instance:com.insove.tests.BookingTest@222a59e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:41:05 ICT" name="setUp" finished-at="2026-03-23T13:41:06 ICT" duration-ms="1018" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.BookingTest.book019_verifyCalendarNavigation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="book019_verifyCalendarNavigation()[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:41:06 ICT" name="book019_verifyCalendarNavigation" description="[Book019] Xác minh chức năng điều hướng giữa các tháng/năm trên lịch" finished-at="2026-03-23T13:41:14 ICT" duration-ms="8817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- book019_verifyCalendarNavigation -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:41:14 ICT" name="tearDown" finished-at="2026-03-23T13:41:15 ICT" duration-ms="328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=book019_verifyCalendarNavigation status=SUCCESS method=BookingTest.book019_verifyCalendarNavigation()[pri:0, instance:com.insove.tests.BookingTest@222a59e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:41:15 ICT" name="setUp" finished-at="2026-03-23T13:41:16 ICT" duration-ms="1162" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.BookingTest.book021_verifyDaySelection()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="book021_verifyDaySelection()[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:41:16 ICT" name="book021_verifyDaySelection" description="[Book021] Kiểm tra chọn ngày được đánh dấu highlight rõ ràng" finished-at="2026-03-23T13:41:22 ICT" duration-ms="5618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- book021_verifyDaySelection -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:41:22 ICT" name="tearDown" finished-at="2026-03-23T13:41:22 ICT" duration-ms="281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=book021_verifyDaySelection status=SUCCESS method=BookingTest.book021_verifyDaySelection()[pri:0, instance:com.insove.tests.BookingTest@222a59e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:41:22 ICT" name="setUp" finished-at="2026-03-23T13:41:23 ICT" duration-ms="1014" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.BookingTest.book026_verifyTimeSlotSelection()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="book026_verifyTimeSlotSelection()[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:41:23 ICT" name="book026_verifyTimeSlotSelection" description="[Book026] Đảm bảo người dùng có thể chọn một khung giờ duy nhất" finished-at="2026-03-23T13:42:29 ICT" duration-ms="66125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- book026_verifyTimeSlotSelection -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:42:29 ICT" name="tearDown" finished-at="2026-03-23T13:42:29 ICT" duration-ms="278" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=book026_verifyTimeSlotSelection status=SUCCESS method=BookingTest.book026_verifyTimeSlotSelection()[pri:0, instance:com.insove.tests.BookingTest@222a59e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:42:29 ICT" name="setUp" finished-at="2026-03-23T13:42:30 ICT" duration-ms="980" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.BookingTest.book030_verifyServicePackagesDisplay()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="book030_verifyServicePackagesDisplay()[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:42:30 ICT" name="book030_verifyServicePackagesDisplay" description="[Book030] Xác minh hiển thị đầy đủ thông tin các gói dịch vụ" finished-at="2026-03-23T13:42:36 ICT" duration-ms="5524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- book030_verifyServicePackagesDisplay -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:42:36 ICT" name="tearDown" finished-at="2026-03-23T13:42:36 ICT" duration-ms="267" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=book030_verifyServicePackagesDisplay status=SUCCESS method=BookingTest.book030_verifyServicePackagesDisplay()[pri:0, instance:com.insove.tests.BookingTest@222a59e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:42:36 ICT" name="setUp" finished-at="2026-03-23T13:42:37 ICT" duration-ms="922" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.BookingTest.book032_verifyOnlyOneServiceSelectable()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="book032_verifyOnlyOneServiceSelectable()[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:42:37 ICT" name="book032_verifyOnlyOneServiceSelectable" description="[Book032] Đảm bảo chỉ có thể chọn duy nhất một gói dịch vụ" finished-at="2026-03-23T13:42:42 ICT" duration-ms="5400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- book032_verifyOnlyOneServiceSelectable -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:42:42 ICT" name="tearDown" finished-at="2026-03-23T13:42:43 ICT" duration-ms="278" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=book032_verifyOnlyOneServiceSelectable status=SUCCESS method=BookingTest.book032_verifyOnlyOneServiceSelectable()[pri:0, instance:com.insove.tests.BookingTest@222a59e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:42:43 ICT" name="setUp" finished-at="2026-03-23T13:42:44 ICT" duration-ms="925" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.BookingTest.book038_verifyNoteFieldMultiline()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="book038_verifyNoteFieldMultiline()[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:42:44 ICT" name="book038_verifyNoteFieldMultiline" description="[Book038] Xác minh trường Ghi chú hỗ trợ nhập văn bản nhiều dòng" finished-at="2026-03-23T13:42:49 ICT" duration-ms="5733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- book038_verifyNoteFieldMultiline -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:42:49 ICT" name="tearDown" finished-at="2026-03-23T13:42:50 ICT" duration-ms="225" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=book038_verifyNoteFieldMultiline status=SUCCESS method=BookingTest.book038_verifyNoteFieldMultiline()[pri:0, instance:com.insove.tests.BookingTest@222a59e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:42:50 ICT" name="setUp" finished-at="2026-03-23T13:42:50 ICT" duration-ms="945" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.BookingTest.book039_verifyNotePlaceholder()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="book039_verifyNotePlaceholder()[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:42:50 ICT" name="book039_verifyNotePlaceholder" description="[Book039] Xác minh hiển thị placeholder của trường Ghi chú" finished-at="2026-03-23T13:42:56 ICT" duration-ms="5365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- book039_verifyNotePlaceholder -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:42:56 ICT" name="tearDown" finished-at="2026-03-23T13:42:56 ICT" duration-ms="252" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=book039_verifyNotePlaceholder status=SUCCESS method=BookingTest.book039_verifyNotePlaceholder()[pri:0, instance:com.insove.tests.BookingTest@222a59e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:42:56 ICT" name="setUp" finished-at="2026-03-23T13:42:57 ICT" duration-ms="895" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.BookingTest.book043_verifySubmitButtonBehavior()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="book043_verifySubmitButtonBehavior()[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:42:57 ICT" name="book043_verifySubmitButtonBehavior" description="[Book043] Xác minh nút Đặt lịch khám hoạt động khi submit" finished-at="2026-03-23T13:43:18 ICT" duration-ms="20976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- book043_verifySubmitButtonBehavior -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:43:18 ICT" name="tearDown" finished-at="2026-03-23T13:43:18 ICT" duration-ms="265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=book043_verifySubmitButtonBehavior status=SUCCESS method=BookingTest.book043_verifySubmitButtonBehavior()[pri:0, instance:com.insove.tests.BookingTest@222a59e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:43:18 ICT" name="setUp" finished-at="2026-03-23T13:43:19 ICT" duration-ms="933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.BookingTest.book045_verifySuccessAfterBooking()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="book045_verifySuccessAfterBooking()[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:43:19 ICT" name="book045_verifySuccessAfterBooking" description="[Book045] Kiểm tra chuyển hướng/thông báo sau khi đặt lịch thành công" finished-at="2026-03-23T13:44:56 ICT" duration-ms="97225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- book045_verifySuccessAfterBooking -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.BookingTest@222a59e6]" started-at="2026-03-23T13:44:56 ICT" name="tearDown" finished-at="2026-03-23T13:44:57 ICT" duration-ms="283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=book045_verifySuccessAfterBooking status=SUCCESS method=BookingTest.book045_verifySuccessAfterBooking()[pri:0, instance:com.insove.tests.BookingTest@222a59e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.insove.tests.BookingTest -->
+    </test> <!-- Booking Tests -->
+    <test started-at="2026-03-23T13:44:57 ICT" name="Profile Tests" finished-at="2026-03-23T13:47:54 ICT" duration-ms="177040">
+      <class name="com.insove.tests.ProfileTest">
+        <test-method is-config="true" signature="initSuite()[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:30:20 ICT" name="initSuite" finished-at="2026-03-23T13:30:20 ICT" duration-ms="370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSuite -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:44:57 ICT" name="setUp" finished-at="2026-03-23T13:44:58 ICT" duration-ms="922" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.ProfileTest.pro001_verifyProfilePageLoads()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="pro001_verifyProfilePageLoads()[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:44:58 ICT" name="pro001_verifyProfilePageLoads" description="[Pro001] Xác minh trang Hồ sơ người dùng tải thành công" finished-at="2026-03-23T13:45:03 ICT" duration-ms="5079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pro001_verifyProfilePageLoads -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:45:03 ICT" name="tearDown" finished-at="2026-03-23T13:45:03 ICT" duration-ms="253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=pro001_verifyProfilePageLoads status=SUCCESS method=ProfileTest.pro001_verifyProfilePageLoads()[pri:0, instance:com.insove.tests.ProfileTest@81d9a72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:45:03 ICT" name="setUp" finished-at="2026-03-23T13:45:04 ICT" duration-ms="929" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.ProfileTest.pro002_verifyProfileLoadTime()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="pro002_verifyProfileLoadTime()[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:45:04 ICT" name="pro002_verifyProfileLoadTime" description="[Pro002] Xác minh thời gian tải trang Hồ sơ không quá 5 giây" finished-at="2026-03-23T13:45:08 ICT" duration-ms="3957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pro002_verifyProfileLoadTime -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:45:08 ICT" name="tearDown" finished-at="2026-03-23T13:45:08 ICT" duration-ms="233" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=pro002_verifyProfileLoadTime status=SUCCESS method=ProfileTest.pro002_verifyProfileLoadTime()[pri:0, instance:com.insove.tests.ProfileTest@81d9a72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:45:08 ICT" name="setUp" finished-at="2026-03-23T13:45:09 ICT" duration-ms="935" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.ProfileTest.pro003_verifyProfileUrl()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="pro003_verifyProfileUrl()[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:45:09 ICT" name="pro003_verifyProfileUrl" description="[Pro003] Xác minh URL trang Hồ sơ người dùng chính xác" finished-at="2026-03-23T13:45:14 ICT" duration-ms="4934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pro003_verifyProfileUrl -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:45:14 ICT" name="tearDown" finished-at="2026-03-23T13:45:14 ICT" duration-ms="253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=pro003_verifyProfileUrl status=SUCCESS method=ProfileTest.pro003_verifyProfileUrl()[pri:0, instance:com.insove.tests.ProfileTest@81d9a72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:45:14 ICT" name="setUp" finished-at="2026-03-23T13:45:15 ICT" duration-ms="911" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.ProfileTest.pro004_verifyAvatarDisplay()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="pro004_verifyAvatarDisplay()[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:45:15 ICT" name="pro004_verifyAvatarDisplay" description="[Pro004] Xác minh hiển thị Avatar hoặc ký tự đại diện của người dùng" finished-at="2026-03-23T13:45:20 ICT" duration-ms="4862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pro004_verifyAvatarDisplay -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:45:20 ICT" name="tearDown" finished-at="2026-03-23T13:45:20 ICT" duration-ms="283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=pro004_verifyAvatarDisplay status=SUCCESS method=ProfileTest.pro004_verifyAvatarDisplay()[pri:0, instance:com.insove.tests.ProfileTest@81d9a72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:45:20 ICT" name="setUp" finished-at="2026-03-23T13:45:21 ICT" duration-ms="906" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.ProfileTest.pro005_verifyUserNameAndEmailDisplay()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="pro005_verifyUserNameAndEmailDisplay()[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:45:21 ICT" name="pro005_verifyUserNameAndEmailDisplay" description="[Pro005] Kiểm tra tên người dùng và email hiển thị chính xác" finished-at="2026-03-23T13:45:41 ICT" duration-ms="19938" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Tên người dùng không hiển thị trên trang Hồ sơ expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Tên người dùng không hiển thị trên trang Hồ sơ expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.insove.tests.ProfileTest.pro005_verifyUserNameAndEmailDisplay(ProfileTest.java:101)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pro005_verifyUserNameAndEmailDisplay -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:45:41 ICT" name="tearDown" finished-at="2026-03-23T13:45:42 ICT" duration-ms="476" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=pro005_verifyUserNameAndEmailDisplay status=FAILURE method=ProfileTest.pro005_verifyUserNameAndEmailDisplay()[pri:0, instance:com.insove.tests.ProfileTest@81d9a72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:45:42 ICT" name="setUp" finished-at="2026-03-23T13:45:43 ICT" duration-ms="901" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.ProfileTest.pro006_verifyPersonalInfoLabels()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="pro006_verifyPersonalInfoLabels()[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:45:43 ICT" name="pro006_verifyPersonalInfoLabels" description="[Pro006] Đảm bảo nhãn Số điện thoại, Địa chỉ, Ngày tham gia hiển thị đúng" finished-at="2026-03-23T13:46:03 ICT" duration-ms="20137" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Nhãn 'Ngày tham gia' không hiển thị expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Nhãn 'Ngày tham gia' không hiển thị expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.insove.tests.ProfileTest.pro006_verifyPersonalInfoLabels(ProfileTest.java:129)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pro006_verifyPersonalInfoLabels -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:46:03 ICT" name="tearDown" finished-at="2026-03-23T13:46:04 ICT" duration-ms="542" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=pro006_verifyPersonalInfoLabels status=FAILURE method=ProfileTest.pro006_verifyPersonalInfoLabels()[pri:0, instance:com.insove.tests.ProfileTest@81d9a72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:46:04 ICT" name="setUp" finished-at="2026-03-23T13:46:05 ICT" duration-ms="909" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.ProfileTest.pro010_verifyChangePasswordButtonDisplayed()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="pro010_verifyChangePasswordButtonDisplayed()[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:46:05 ICT" name="pro010_verifyChangePasswordButtonDisplayed" description="[Pro010] Xác minh nút Đổi mật khẩu hiển thị rõ ràng và có thể click" finished-at="2026-03-23T13:46:09 ICT" duration-ms="4860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pro010_verifyChangePasswordButtonDisplayed -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:46:09 ICT" name="tearDown" finished-at="2026-03-23T13:46:10 ICT" duration-ms="256" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=pro010_verifyChangePasswordButtonDisplayed status=SUCCESS method=ProfileTest.pro010_verifyChangePasswordButtonDisplayed()[pri:0, instance:com.insove.tests.ProfileTest@81d9a72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:46:10 ICT" name="setUp" finished-at="2026-03-23T13:46:11 ICT" duration-ms="938" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.ProfileTest.pro011_verifyChangePasswordFormOpens()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="pro011_verifyChangePasswordFormOpens()[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:46:11 ICT" name="pro011_verifyChangePasswordFormOpens" description="[Pro011] Kiểm tra form đổi mật khẩu hiển thị chính xác khi click nút" finished-at="2026-03-23T13:46:16 ICT" duration-ms="4896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pro011_verifyChangePasswordFormOpens -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:46:16 ICT" name="tearDown" finished-at="2026-03-23T13:46:16 ICT" duration-ms="287" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=pro011_verifyChangePasswordFormOpens status=SUCCESS method=ProfileTest.pro011_verifyChangePasswordFormOpens()[pri:0, instance:com.insove.tests.ProfileTest@81d9a72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:46:16 ICT" name="setUp" finished-at="2026-03-23T13:46:17 ICT" duration-ms="931" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.ProfileTest.pro015_errorOnWrongCurrentPassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="pro015_errorOnWrongCurrentPassword()[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:46:17 ICT" name="pro015_errorOnWrongCurrentPassword" description="[Pro015] Xác minh thông báo lỗi khi nhập sai Mật khẩu hiện tại" finished-at="2026-03-23T13:46:23 ICT" duration-ms="5989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pro015_errorOnWrongCurrentPassword -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:46:23 ICT" name="tearDown" finished-at="2026-03-23T13:46:23 ICT" duration-ms="246" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=pro015_errorOnWrongCurrentPassword status=SUCCESS method=ProfileTest.pro015_errorOnWrongCurrentPassword()[pri:0, instance:com.insove.tests.ProfileTest@81d9a72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:46:23 ICT" name="setUp" finished-at="2026-03-23T13:46:24 ICT" duration-ms="966" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.ProfileTest.pro016_passwordMismatchError()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="pro016_passwordMismatchError()[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:46:24 ICT" name="pro016_passwordMismatchError" description="[Pro016] Đảm bảo Mật khẩu mới và Xác nhận mật khẩu mới phải trùng khớp" finished-at="2026-03-23T13:46:30 ICT" duration-ms="5876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pro016_passwordMismatchError -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:46:30 ICT" name="tearDown" finished-at="2026-03-23T13:46:30 ICT" duration-ms="265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=pro016_passwordMismatchError status=SUCCESS method=ProfileTest.pro016_passwordMismatchError()[pri:0, instance:com.insove.tests.ProfileTest@81d9a72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:46:30 ICT" name="setUp" finished-at="2026-03-23T13:46:31 ICT" duration-ms="889" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.ProfileTest.pro024_verifyAllTabsDisplayed()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="pro024_verifyAllTabsDisplayed()[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:46:31 ICT" name="pro024_verifyAllTabsDisplayed" description="[Pro024] Xác minh tất cả các tab hiển thị rõ ràng và có thể click" finished-at="2026-03-23T13:46:36 ICT" duration-ms="4708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pro024_verifyAllTabsDisplayed -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:46:36 ICT" name="tearDown" finished-at="2026-03-23T13:46:36 ICT" duration-ms="257" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=pro024_verifyAllTabsDisplayed status=SUCCESS method=ProfileTest.pro024_verifyAllTabsDisplayed()[pri:0, instance:com.insove.tests.ProfileTest@81d9a72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:46:36 ICT" name="setUp" finished-at="2026-03-23T13:46:37 ICT" duration-ms="851" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.ProfileTest.pro025_verifyAppointmentsTabActiveByDefault()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="pro025_verifyAppointmentsTabActiveByDefault()[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:46:37 ICT" name="pro025_verifyAppointmentsTabActiveByDefault" description="[Pro025] Đảm bảo tab Lịch hẹn được chọn mặc định khi truy cập trang Hồ sơ" finished-at="2026-03-23T13:46:42 ICT" duration-ms="4862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pro025_verifyAppointmentsTabActiveByDefault -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:46:42 ICT" name="tearDown" finished-at="2026-03-23T13:46:42 ICT" duration-ms="259" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=pro025_verifyAppointmentsTabActiveByDefault status=SUCCESS method=ProfileTest.pro025_verifyAppointmentsTabActiveByDefault()[pri:0, instance:com.insove.tests.ProfileTest@81d9a72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:46:42 ICT" name="setUp" finished-at="2026-03-23T13:46:43 ICT" duration-ms="876" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.ProfileTest.pro026_verifyTabContentSwitch()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="pro026_verifyTabContentSwitch()[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:46:43 ICT" name="pro026_verifyTabContentSwitch" description="[Pro026] Kiểm tra khi click vào từng tab, nội dung tương ứng được hiển thị" finished-at="2026-03-23T13:46:48 ICT" duration-ms="4893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pro026_verifyTabContentSwitch -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:46:48 ICT" name="tearDown" finished-at="2026-03-23T13:46:48 ICT" duration-ms="261" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=pro026_verifyTabContentSwitch status=SUCCESS method=ProfileTest.pro026_verifyTabContentSwitch()[pri:0, instance:com.insove.tests.ProfileTest@81d9a72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:46:48 ICT" name="setUp" finished-at="2026-03-23T13:46:49 ICT" duration-ms="892" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.ProfileTest.pro029_verifyEmptyAppointmentMessage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="pro029_verifyEmptyAppointmentMessage()[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:46:49 ICT" name="pro029_verifyEmptyAppointmentMessage" description="[Pro029] Xác minh thông báo &#039;Bạn chưa có lịch hẹn nào.&#039; khi không có dữ liệu" finished-at="2026-03-23T13:47:24 ICT" duration-ms="34854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pro029_verifyEmptyAppointmentMessage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:47:24 ICT" name="tearDown" finished-at="2026-03-23T13:47:24 ICT" duration-ms="279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=pro029_verifyEmptyAppointmentMessage status=SUCCESS method=ProfileTest.pro029_verifyEmptyAppointmentMessage()[pri:0, instance:com.insove.tests.ProfileTest@81d9a72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:47:24 ICT" name="setUp" finished-at="2026-03-23T13:47:25 ICT" duration-ms="927" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.ProfileTest.pro038_verifyEmptyWaitlistTab()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="pro038_verifyEmptyWaitlistTab()[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:47:25 ICT" name="pro038_verifyEmptyWaitlistTab" description="[Pro038] Xác minh giao diện tab Danh sách chờ hiển thị đúng khi không có dữ liệu" finished-at="2026-03-23T13:47:30 ICT" duration-ms="5201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pro038_verifyEmptyWaitlistTab -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:47:30 ICT" name="tearDown" finished-at="2026-03-23T13:47:30 ICT" duration-ms="309" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=pro038_verifyEmptyWaitlistTab status=SUCCESS method=ProfileTest.pro038_verifyEmptyWaitlistTab()[pri:0, instance:com.insove.tests.ProfileTest@81d9a72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:47:30 ICT" name="setUp" finished-at="2026-03-23T13:47:31 ICT" duration-ms="898" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.ProfileTest.pro039_verifyEmptyPrescriptionTab()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="pro039_verifyEmptyPrescriptionTab()[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:47:31 ICT" name="pro039_verifyEmptyPrescriptionTab" description="[Pro039] Xác minh giao diện tab Đơn thuốc hiển thị đúng khi không có dữ liệu" finished-at="2026-03-23T13:47:36 ICT" duration-ms="4898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pro039_verifyEmptyPrescriptionTab -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:47:36 ICT" name="tearDown" finished-at="2026-03-23T13:47:37 ICT" duration-ms="275" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=pro039_verifyEmptyPrescriptionTab status=SUCCESS method=ProfileTest.pro039_verifyEmptyPrescriptionTab()[pri:0, instance:com.insove.tests.ProfileTest@81d9a72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:47:37 ICT" name="setUp" finished-at="2026-03-23T13:47:37 ICT" duration-ms="954" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.ProfileTest.pro040_verifyEmptyInvoiceTab()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="pro040_verifyEmptyInvoiceTab()[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:47:37 ICT" name="pro040_verifyEmptyInvoiceTab" description="[Pro040] Xác minh giao diện tab Hóa đơn hiển thị đúng khi không có dữ liệu" finished-at="2026-03-23T13:47:42 ICT" duration-ms="4835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pro040_verifyEmptyInvoiceTab -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:47:42 ICT" name="tearDown" finished-at="2026-03-23T13:47:43 ICT" duration-ms="256" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=pro040_verifyEmptyInvoiceTab status=SUCCESS method=ProfileTest.pro040_verifyEmptyInvoiceTab()[pri:0, instance:com.insove.tests.ProfileTest@81d9a72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:47:43 ICT" name="setUp" finished-at="2026-03-23T13:47:43 ICT" duration-ms="884" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.ProfileTest.pro054_verifySessionManagement()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="pro054_verifySessionManagement()[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:47:43 ICT" name="pro054_verifySessionManagement" description="[Pro054] Kiểm tra quản lý và hết hạn phiên làm việc (session)" finished-at="2026-03-23T13:47:48 ICT" duration-ms="4105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pro054_verifySessionManagement -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:47:48 ICT" name="tearDown" finished-at="2026-03-23T13:47:48 ICT" duration-ms="254" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=pro054_verifySessionManagement status=SUCCESS method=ProfileTest.pro054_verifySessionManagement()[pri:0, instance:com.insove.tests.ProfileTest@81d9a72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:47:48 ICT" name="setUp" finished-at="2026-03-23T13:47:49 ICT" duration-ms="936" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.insove.tests.ProfileTest.pro055_verifyNoSensitiveDataInUrl()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="pro055_verifyNoSensitiveDataInUrl()[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:47:49 ICT" name="pro055_verifyNoSensitiveDataInUrl" description="[Pro055] Kiểm tra không lộ thông tin nhạy cảm trong URL" finished-at="2026-03-23T13:47:54 ICT" duration-ms="4840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pro055_verifyNoSensitiveDataInUrl -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:47:54 ICT" name="tearDown" finished-at="2026-03-23T13:47:54 ICT" duration-ms="255" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=pro055_verifyNoSensitiveDataInUrl status=SUCCESS method=ProfileTest.pro055_verifyNoSensitiveDataInUrl()[pri:0, instance:com.insove.tests.ProfileTest@81d9a72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="finishSuite()[pri:0, instance:com.insove.tests.ProfileTest@81d9a72]" started-at="2026-03-23T13:47:54 ICT" name="finishSuite" finished-at="2026-03-23T13:47:54 ICT" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishSuite -->
+      </class> <!-- com.insove.tests.ProfileTest -->
+    </test> <!-- Profile Tests -->
+  </suite> <!-- Insove Automation Suite -->
+</testng-results>

@@ -1,0 +1,13 @@
+com\insove\pages\BookingPage.class
+com\insove\pages\LoginPage.class
+com\insove\pages\ForgotPasswordPage.class
+com\insove\utils\ScreenshotUtil.class
+com\insove\utils\WaitUtil.class
+com\insove\pages\BasePage.class
+com\insove\utils\ExtentReportManager.class
+com\insove\config\ConfigReader.class
+com\insove\listeners\TestListener.class
+com\insove\pages\HomePage.class
+com\insove\pages\RegisterPage.class
+com\insove\utils\DriverManager.class
+com\insove\pages\ProfilePage.class

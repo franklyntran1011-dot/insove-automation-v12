@@ -1,0 +1,1001 @@
+2026-03-23 13:30:20 [main] INFO  com.insove.config.ConfigReader - Đã load config.properties thành công
+2026-03-23 13:30:20 [main] INFO  c.insove.utils.ExtentReportManager - ExtentReport khởi tạo tại: reports/InsoveReport_2026-03-23_13-30-20.html
+2026-03-23 13:30:20 [main] INFO  com.insove.tests.ProfileTest - ===== BẮT ĐẦU TEST SUITE =====
+2026-03-23 13:30:20 [main] INFO  com.insove.listeners.TestListener - ========== BẮT ĐẦU: Authentication Tests ==========
+2026-03-23 13:30:20 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:30:21 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:30:21 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:30:23 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:30:23 [main] INFO  com.insove.tests.AuthenticationTest - --- Bắt đầu test: auth001_verifyLoginPageDisplay ---
+2026-03-23 13:30:23 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: auth001_verifyLoginPageDisplay
+2026-03-23 13:30:23 [main] INFO  com.insove.tests.AuthenticationTest -   Step: Truy cập trang /login
+2026-03-23 13:30:25 [main] INFO  com.insove.pages.LoginPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/login
+2026-03-23 13:30:25 [main] INFO  com.insove.pages.LoginPage - Mở trang /login
+2026-03-23 13:30:25 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: auth001_verifyLoginPageDisplay
+2026-03-23 13:30:25 [main] INFO  com.insove.tests.AuthenticationTest - PASS: auth001_verifyLoginPageDisplay
+2026-03-23 13:30:25 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:30:25 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:30:25 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:30:25 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:30:26 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:30:26 [main] INFO  com.insove.tests.AuthenticationTest - --- Bắt đầu test: auth004_verifyPlaceholderText ---
+2026-03-23 13:30:26 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: auth004_verifyPlaceholderText
+2026-03-23 13:30:27 [main] INFO  com.insove.pages.LoginPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/login
+2026-03-23 13:30:27 [main] INFO  com.insove.pages.LoginPage - Mở trang /login
+2026-03-23 13:30:27 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: auth004_verifyPlaceholderText
+2026-03-23 13:30:27 [main] INFO  com.insove.tests.AuthenticationTest - PASS: auth004_verifyPlaceholderText
+2026-03-23 13:30:28 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:30:28 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:30:28 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:30:28 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:30:29 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:30:29 [main] INFO  com.insove.tests.AuthenticationTest - --- Bắt đầu test: auth006_navigateToRegister ---
+2026-03-23 13:30:29 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: auth006_navigateToRegister
+2026-03-23 13:30:29 [main] INFO  com.insove.pages.LoginPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/login
+2026-03-23 13:30:29 [main] INFO  com.insove.pages.LoginPage - Mở trang /login
+2026-03-23 13:30:32 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: auth006_navigateToRegister
+2026-03-23 13:30:32 [main] INFO  com.insove.tests.AuthenticationTest - PASS: auth006_navigateToRegister
+2026-03-23 13:30:32 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:30:32 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:30:32 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:30:32 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:30:33 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:30:33 [main] INFO  com.insove.tests.AuthenticationTest - --- Bắt đầu test: auth007_navigateToForgotPassword ---
+2026-03-23 13:30:33 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: auth007_navigateToForgotPassword
+2026-03-23 13:30:33 [main] INFO  com.insove.pages.LoginPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/login
+2026-03-23 13:30:33 [main] INFO  com.insove.pages.LoginPage - Mở trang /login
+2026-03-23 13:30:36 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: auth007_navigateToForgotPassword
+2026-03-23 13:30:36 [main] INFO  com.insove.tests.AuthenticationTest - PASS: auth007_navigateToForgotPassword
+2026-03-23 13:30:36 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:30:36 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:30:37 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:30:37 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:30:37 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:30:38 [main] INFO  com.insove.tests.AuthenticationTest - --- Bắt đầu test: auth013_passwordFieldIsHidden ---
+2026-03-23 13:30:38 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: auth013_passwordFieldIsHidden
+2026-03-23 13:30:38 [main] INFO  com.insove.pages.LoginPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/login
+2026-03-23 13:30:38 [main] INFO  com.insove.pages.LoginPage - Mở trang /login
+2026-03-23 13:30:38 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: auth013_passwordFieldIsHidden
+2026-03-23 13:30:39 [main] INFO  com.insove.tests.AuthenticationTest - PASS: auth013_passwordFieldIsHidden
+2026-03-23 13:30:39 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:30:39 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:30:39 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:30:39 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:30:40 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:30:40 [main] INFO  com.insove.tests.AuthenticationTest - --- Bắt đầu test: auth017_loginFailWrongUsername ---
+2026-03-23 13:30:40 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: auth017_loginFailWrongUsername
+2026-03-23 13:30:40 [main] INFO  com.insove.pages.LoginPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/login
+2026-03-23 13:30:40 [main] INFO  com.insove.pages.LoginPage - Mở trang /login
+2026-03-23 13:30:42 [main] INFO  com.insove.pages.LoginPage - Click nút Đăng nhập
+2026-03-23 13:31:15 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: auth017_loginFailWrongUsername
+2026-03-23 13:31:15 [main] INFO  com.insove.tests.AuthenticationTest - PASS: auth017_loginFailWrongUsername
+2026-03-23 13:31:15 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:31:15 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:31:15 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:31:15 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:31:16 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:31:16 [main] INFO  com.insove.tests.AuthenticationTest - --- Bắt đầu test: auth018_loginFailWrongPassword ---
+2026-03-23 13:31:16 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: auth018_loginFailWrongPassword
+2026-03-23 13:31:18 [main] INFO  com.insove.pages.LoginPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/login
+2026-03-23 13:31:18 [main] INFO  com.insove.pages.LoginPage - Mở trang /login
+2026-03-23 13:31:19 [main] INFO  com.insove.pages.LoginPage - Click nút Đăng nhập
+2026-03-23 13:31:52 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: auth018_loginFailWrongPassword
+2026-03-23 13:31:52 [main] INFO  com.insove.tests.AuthenticationTest - PASS: auth018_loginFailWrongPassword
+2026-03-23 13:31:52 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:31:52 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:31:52 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:31:52 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:31:53 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:31:53 [main] INFO  com.insove.tests.AuthenticationTest - --- Bắt đầu test: auth019_loginFailEmptyFields ---
+2026-03-23 13:31:53 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: auth019_loginFailEmptyFields
+2026-03-23 13:31:54 [main] INFO  com.insove.pages.LoginPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/login
+2026-03-23 13:31:54 [main] INFO  com.insove.pages.LoginPage - Mở trang /login
+2026-03-23 13:31:56 [main] INFO  com.insove.pages.LoginPage - Click nút Đăng nhập
+2026-03-23 13:32:28 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: auth019_loginFailEmptyFields
+2026-03-23 13:32:28 [main] INFO  com.insove.tests.AuthenticationTest - PASS: auth019_loginFailEmptyFields
+2026-03-23 13:32:28 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:32:28 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:32:28 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:32:29 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:32:30 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:32:30 [main] INFO  com.insove.tests.AuthenticationTest - --- Bắt đầu test: auth033_verifyForgotPasswordPage ---
+2026-03-23 13:32:30 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: auth033_verifyForgotPasswordPage
+2026-03-23 13:32:31 [main] INFO  com.insove.pages.ForgotPasswordPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/forgot-password
+2026-03-23 13:32:31 [main] INFO  com.insove.pages.ForgotPasswordPage - Mở trang Quên Mật Khẩu
+2026-03-23 13:32:31 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: auth033_verifyForgotPasswordPage
+2026-03-23 13:32:31 [main] INFO  com.insove.tests.AuthenticationTest - PASS: auth033_verifyForgotPasswordPage
+2026-03-23 13:32:31 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:32:31 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:32:31 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:32:31 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:32:32 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:32:32 [main] INFO  com.insove.tests.AuthenticationTest - --- Bắt đầu test: auth041_forgotPasswordEmailNotExist ---
+2026-03-23 13:32:32 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: auth041_forgotPasswordEmailNotExist
+2026-03-23 13:32:33 [main] INFO  com.insove.pages.ForgotPasswordPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/forgot-password
+2026-03-23 13:32:33 [main] INFO  com.insove.pages.ForgotPasswordPage - Mở trang Quên Mật Khẩu
+2026-03-23 13:32:50 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: auth041_forgotPasswordEmailNotExist
+2026-03-23 13:32:50 [main] INFO  com.insove.tests.AuthenticationTest - PASS: auth041_forgotPasswordEmailNotExist
+2026-03-23 13:32:51 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:32:51 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:32:51 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:32:51 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:32:52 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:32:52 [main] INFO  com.insove.tests.AuthenticationTest - --- Bắt đầu test: auth042_forgotPasswordEmptyEmail ---
+2026-03-23 13:32:52 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: auth042_forgotPasswordEmptyEmail
+2026-03-23 13:32:52 [main] INFO  com.insove.pages.ForgotPasswordPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/forgot-password
+2026-03-23 13:32:52 [main] INFO  com.insove.pages.ForgotPasswordPage - Mở trang Quên Mật Khẩu
+2026-03-23 13:32:55 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: auth042_forgotPasswordEmptyEmail
+2026-03-23 13:32:55 [main] INFO  com.insove.tests.AuthenticationTest - PASS: auth042_forgotPasswordEmptyEmail
+2026-03-23 13:32:55 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:32:55 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:32:55 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:32:55 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:32:56 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:32:56 [main] INFO  com.insove.tests.AuthenticationTest - --- Bắt đầu test: auth043_forgotPasswordInvalidEmailFormat ---
+2026-03-23 13:32:56 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: auth043_forgotPasswordInvalidEmailFormat
+2026-03-23 13:32:57 [main] INFO  com.insove.pages.ForgotPasswordPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/forgot-password
+2026-03-23 13:32:57 [main] INFO  com.insove.pages.ForgotPasswordPage - Mở trang Quên Mật Khẩu
+2026-03-23 13:33:14 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: auth043_forgotPasswordInvalidEmailFormat
+2026-03-23 13:33:14 [main] INFO  com.insove.tests.AuthenticationTest - PASS: auth043_forgotPasswordInvalidEmailFormat
+2026-03-23 13:33:14 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:33:14 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:33:14 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:33:15 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:33:16 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:33:16 [main] INFO  com.insove.tests.AuthenticationTest - --- Bắt đầu test: auth056_verifyRegisterPageDisplay ---
+2026-03-23 13:33:16 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: auth056_verifyRegisterPageDisplay
+2026-03-23 13:33:17 [main] INFO  com.insove.pages.RegisterPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/register
+2026-03-23 13:33:17 [main] INFO  com.insove.pages.RegisterPage - Mở trang Đăng ký
+2026-03-23 13:33:17 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: auth056_verifyRegisterPageDisplay
+2026-03-23 13:33:17 [main] INFO  com.insove.tests.AuthenticationTest - PASS: auth056_verifyRegisterPageDisplay
+2026-03-23 13:33:18 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:33:18 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:33:18 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:33:18 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:33:19 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:33:19 [main] INFO  com.insove.tests.AuthenticationTest - --- Bắt đầu test: auth065_registerEmptyRequiredFields ---
+2026-03-23 13:33:19 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: auth065_registerEmptyRequiredFields
+2026-03-23 13:33:20 [main] INFO  com.insove.pages.RegisterPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/register
+2026-03-23 13:33:20 [main] INFO  com.insove.pages.RegisterPage - Mở trang Đăng ký
+2026-03-23 13:33:21 [main] INFO  com.insove.pages.RegisterPage - Click nút Register (JS click)
+2026-03-23 13:33:38 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: auth065_registerEmptyRequiredFields
+2026-03-23 13:33:38 [main] INFO  com.insove.tests.AuthenticationTest - PASS: auth065_registerEmptyRequiredFields
+2026-03-23 13:33:38 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:33:38 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:33:38 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:33:38 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:33:39 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:33:39 [main] INFO  com.insove.tests.AuthenticationTest - --- Bắt đầu test: auth068_passwordMismatch ---
+2026-03-23 13:33:39 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: auth068_passwordMismatch
+2026-03-23 13:33:40 [main] INFO  com.insove.pages.RegisterPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/register
+2026-03-23 13:33:40 [main] INFO  com.insove.pages.RegisterPage - Mở trang Đăng ký
+2026-03-23 13:33:41 [main] INFO  com.insove.pages.RegisterPage - Click nút Register (JS click)
+2026-03-23 13:33:58 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: auth068_passwordMismatch
+2026-03-23 13:33:58 [main] INFO  com.insove.tests.AuthenticationTest - PASS: auth068_passwordMismatch
+2026-03-23 13:33:58 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:33:58 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:33:58 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:33:58 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:33:59 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:33:59 [main] INFO  com.insove.tests.AuthenticationTest - --- Bắt đầu test: auth076_loginLinkOnRegisterPage ---
+2026-03-23 13:33:59 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: auth076_loginLinkOnRegisterPage
+2026-03-23 13:34:00 [main] INFO  com.insove.pages.RegisterPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/register
+2026-03-23 13:34:00 [main] INFO  com.insove.pages.RegisterPage - Mở trang Đăng ký
+2026-03-23 13:34:03 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: auth076_loginLinkOnRegisterPage
+2026-03-23 13:34:03 [main] INFO  com.insove.tests.AuthenticationTest - PASS: auth076_loginLinkOnRegisterPage
+2026-03-23 13:34:03 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:34:03 [main] INFO  com.insove.listeners.TestListener - ========== KẾT THÚC: Authentication Tests | Pass: 16 | Fail: 0 | Skip: 0 ==========
+2026-03-23 13:34:03 [main] INFO  c.insove.utils.ExtentReportManager - Report đã được lưu
+2026-03-23 13:34:03 [main] INFO  com.insove.listeners.TestListener - ========== BẮT ĐẦU: HomePage Tests ==========
+2026-03-23 13:34:03 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:34:03 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:34:03 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:34:04 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:34:04 [main] INFO  com.insove.tests.HomePageTest - --- Bắt đầu test: home001_verifyHomepageOverview ---
+2026-03-23 13:34:04 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: home001_verifyHomepageOverview
+2026-03-23 13:34:06 [main] INFO  com.insove.pages.HomePage - Điều hướng đến: https://demo6.cybersoft.edu.vn/
+2026-03-23 13:34:06 [main] INFO  com.insove.pages.HomePage - Mo trang chu
+2026-03-23 13:34:08 [main] INFO  com.insove.tests.HomePageTest -   Step: Kiem tra nav menu hien thi
+2026-03-23 13:34:08 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: home001_verifyHomepageOverview
+2026-03-23 13:34:08 [main] INFO  com.insove.tests.HomePageTest - PASS: home001_verifyHomepageOverview
+2026-03-23 13:34:08 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:34:08 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:34:08 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:34:08 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:34:09 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:34:09 [main] INFO  com.insove.tests.HomePageTest - --- Bắt đầu test: home004_verifyLogoDisplay ---
+2026-03-23 13:34:09 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: home004_verifyLogoDisplay
+2026-03-23 13:34:10 [main] INFO  com.insove.pages.HomePage - Điều hướng đến: https://demo6.cybersoft.edu.vn/
+2026-03-23 13:34:10 [main] INFO  com.insove.pages.HomePage - Mo trang chu
+2026-03-23 13:34:12 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: home004_verifyLogoDisplay
+2026-03-23 13:34:12 [main] INFO  com.insove.tests.HomePageTest - PASS: home004_verifyLogoDisplay
+2026-03-23 13:34:14 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:34:14 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:34:14 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:34:14 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:34:15 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:34:15 [main] INFO  com.insove.tests.HomePageTest - --- Bắt đầu test: home005_verifyMainMenuItems ---
+2026-03-23 13:34:15 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: home005_verifyMainMenuItems
+2026-03-23 13:34:16 [main] INFO  com.insove.pages.HomePage - Điều hướng đến: https://demo6.cybersoft.edu.vn/
+2026-03-23 13:34:16 [main] INFO  com.insove.pages.HomePage - Mo trang chu
+2026-03-23 13:34:17 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: home005_verifyMainMenuItems
+2026-03-23 13:34:17 [main] INFO  com.insove.tests.HomePageTest - PASS: home005_verifyMainMenuItems
+2026-03-23 13:34:18 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:34:18 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:34:18 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:34:18 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:34:19 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:34:19 [main] INFO  com.insove.tests.HomePageTest - --- Bắt đầu test: home008_verifyStickyHeader ---
+2026-03-23 13:34:19 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: home008_verifyStickyHeader
+2026-03-23 13:34:20 [main] INFO  com.insove.pages.HomePage - Điều hướng đến: https://demo6.cybersoft.edu.vn/
+2026-03-23 13:34:20 [main] INFO  com.insove.pages.HomePage - Mo trang chu
+2026-03-23 13:34:22 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: home008_verifyStickyHeader
+2026-03-23 13:34:22 [main] INFO  com.insove.tests.HomePageTest - PASS: home008_verifyStickyHeader
+2026-03-23 13:34:22 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:34:22 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:34:22 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:34:22 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:34:23 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:34:23 [main] INFO  com.insove.tests.HomePageTest - --- Bắt đầu test: home012_verifyHeroTitle ---
+2026-03-23 13:34:23 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: home012_verifyHeroTitle
+2026-03-23 13:34:24 [main] INFO  com.insove.pages.HomePage - Điều hướng đến: https://demo6.cybersoft.edu.vn/
+2026-03-23 13:34:24 [main] INFO  com.insove.pages.HomePage - Mo trang chu
+2026-03-23 13:35:41 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: home012_verifyHeroTitle
+2026-03-23 13:35:41 [main] INFO  com.insove.tests.HomePageTest - PASS: home012_verifyHeroTitle
+2026-03-23 13:35:41 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:35:41 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:35:42 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:35:42 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:35:42 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:35:42 [main] INFO  com.insove.tests.HomePageTest - --- Bắt đầu test: home014_verifyContactButton ---
+2026-03-23 13:35:42 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: home014_verifyContactButton
+2026-03-23 13:35:44 [main] INFO  com.insove.pages.HomePage - Điều hướng đến: https://demo6.cybersoft.edu.vn/
+2026-03-23 13:35:44 [main] INFO  com.insove.pages.HomePage - Mo trang chu
+2026-03-23 13:36:16 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: home014_verifyContactButton
+2026-03-23 13:36:16 [main] INFO  com.insove.tests.HomePageTest - PASS: home014_verifyContactButton
+2026-03-23 13:36:16 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:36:16 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:36:16 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:36:16 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:36:17 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:36:17 [main] INFO  com.insove.tests.HomePageTest - --- Bắt đầu test: home022_verifyFaqTitle ---
+2026-03-23 13:36:17 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: home022_verifyFaqTitle
+2026-03-23 13:36:18 [main] INFO  com.insove.pages.HomePage - Điều hướng đến: https://demo6.cybersoft.edu.vn/
+2026-03-23 13:36:18 [main] INFO  com.insove.pages.HomePage - Mo trang chu
+2026-03-23 13:36:20 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: home022_verifyFaqTitle
+2026-03-23 13:36:20 [main] INFO  com.insove.tests.HomePageTest - PASS: home022_verifyFaqTitle
+2026-03-23 13:36:20 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:36:20 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:36:20 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:36:20 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:36:21 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:36:21 [main] INFO  com.insove.tests.HomePageTest - --- Bắt đầu test: home023_verifyFaqInteractable ---
+2026-03-23 13:36:21 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: home023_verifyFaqInteractable
+2026-03-23 13:36:23 [main] INFO  com.insove.pages.HomePage - Điều hướng đến: https://demo6.cybersoft.edu.vn/
+2026-03-23 13:36:23 [main] INFO  com.insove.pages.HomePage - Mo trang chu
+2026-03-23 13:36:24 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: home023_verifyFaqInteractable
+2026-03-23 13:36:24 [main] INFO  com.insove.tests.HomePageTest - PASS: home023_verifyFaqInteractable
+2026-03-23 13:36:25 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:36:25 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:36:25 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:36:25 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:36:25 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:36:25 [main] INFO  com.insove.tests.HomePageTest - --- Bắt đầu test: home029_verifyRecentArticlesTitle ---
+2026-03-23 13:36:25 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: home029_verifyRecentArticlesTitle
+2026-03-23 13:36:27 [main] INFO  com.insove.pages.HomePage - Điều hướng đến: https://demo6.cybersoft.edu.vn/
+2026-03-23 13:36:27 [main] INFO  com.insove.pages.HomePage - Mo trang chu
+2026-03-23 13:36:28 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: home029_verifyRecentArticlesTitle
+2026-03-23 13:36:28 [main] INFO  com.insove.tests.HomePageTest - PASS: home029_verifyRecentArticlesTitle
+2026-03-23 13:36:29 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:36:29 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:36:29 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:36:29 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:36:29 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:36:29 [main] INFO  com.insove.tests.HomePageTest - --- Bắt đầu test: home030_verifyMinThreeArticles ---
+2026-03-23 13:36:29 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: home030_verifyMinThreeArticles
+2026-03-23 13:36:31 [main] INFO  com.insove.pages.HomePage - Điều hướng đến: https://demo6.cybersoft.edu.vn/
+2026-03-23 13:36:31 [main] INFO  com.insove.pages.HomePage - Mo trang chu
+2026-03-23 13:36:48 [main] ERROR com.insove.listeners.TestListener - ❌ FAIL: home030_verifyMinThreeArticles | Lỗi: Can it nhat 1 bai viet. Hien co: 0 expected [true] but found [false]
+2026-03-23 13:36:49 [main] INFO  com.insove.utils.ScreenshotUtil - Screenshot đã lưu: screenshots\FAIL_home030_verifyMinThreeArticles_2026-03-23_13-36-48.png
+2026-03-23 13:36:49 [main] INFO  com.insove.utils.ScreenshotUtil - Screenshot đã lưu: screenshots\home030_verifyMinThreeArticles_2026-03-23_13-36-49.png
+2026-03-23 13:36:49 [main] ERROR com.insove.tests.HomePageTest - FAIL: home030_verifyMinThreeArticles | Lỗi: Can it nhat 1 bai viet. Hien co: 0 expected [true] but found [false]
+2026-03-23 13:36:49 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:36:49 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:36:49 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:36:49 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:36:50 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:36:50 [main] INFO  com.insove.tests.HomePageTest - --- Bắt đầu test: home037_verifyCopyright ---
+2026-03-23 13:36:50 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: home037_verifyCopyright
+2026-03-23 13:36:50 [main] INFO  com.insove.pages.HomePage - Điều hướng đến: https://demo6.cybersoft.edu.vn/
+2026-03-23 13:36:50 [main] INFO  com.insove.pages.HomePage - Mo trang chu
+2026-03-23 13:36:53 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: home037_verifyCopyright
+2026-03-23 13:36:53 [main] INFO  com.insove.tests.HomePageTest - PASS: home037_verifyCopyright
+2026-03-23 13:36:53 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:36:53 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:36:53 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:36:53 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:36:54 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:36:54 [main] INFO  com.insove.tests.HomePageTest - --- Bắt đầu test: home053_verifySubscribeForm ---
+2026-03-23 13:36:54 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: home053_verifySubscribeForm
+2026-03-23 13:36:56 [main] INFO  com.insove.pages.HomePage - Điều hướng đến: https://demo6.cybersoft.edu.vn/
+2026-03-23 13:36:56 [main] INFO  com.insove.pages.HomePage - Mo trang chu
+2026-03-23 13:36:58 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: home053_verifySubscribeForm
+2026-03-23 13:36:58 [main] INFO  com.insove.tests.HomePageTest - PASS: home053_verifySubscribeForm
+2026-03-23 13:36:58 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:36:58 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:36:58 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:36:58 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:36:59 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:36:59 [main] INFO  com.insove.tests.HomePageTest - --- Bắt đầu test: home055_subscribeInvalidEmail ---
+2026-03-23 13:36:59 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: home055_subscribeInvalidEmail
+2026-03-23 13:37:00 [main] INFO  com.insove.pages.HomePage - Điều hướng đến: https://demo6.cybersoft.edu.vn/
+2026-03-23 13:37:00 [main] INFO  com.insove.pages.HomePage - Mo trang chu
+2026-03-23 13:37:32 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: home055_subscribeInvalidEmail
+2026-03-23 13:37:32 [main] INFO  com.insove.tests.HomePageTest - PASS: home055_subscribeInvalidEmail
+2026-03-23 13:37:33 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:37:33 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:37:33 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:37:33 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:37:34 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:37:34 [main] INFO  com.insove.tests.HomePageTest - --- Bắt đầu test: home056_subscribeEmptyEmail ---
+2026-03-23 13:37:34 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: home056_subscribeEmptyEmail
+2026-03-23 13:37:35 [main] INFO  com.insove.pages.HomePage - Điều hướng đến: https://demo6.cybersoft.edu.vn/
+2026-03-23 13:37:35 [main] INFO  com.insove.pages.HomePage - Mo trang chu
+2026-03-23 13:38:07 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: home056_subscribeEmptyEmail
+2026-03-23 13:38:07 [main] INFO  com.insove.tests.HomePageTest - PASS: home056_subscribeEmptyEmail
+2026-03-23 13:38:08 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:38:08 [main] INFO  com.insove.listeners.TestListener - ========== KẾT THÚC: HomePage Tests | Pass: 13 | Fail: 1 | Skip: 0 ==========
+2026-03-23 13:38:08 [main] INFO  c.insove.utils.ExtentReportManager - Report đã được lưu
+2026-03-23 13:38:08 [main] INFO  com.insove.listeners.TestListener - ========== BẮT ĐẦU: Booking Tests ==========
+2026-03-23 13:38:08 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:38:08 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:38:08 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:38:09 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:38:09 [main] INFO  com.insove.tests.BookingTest - --- Bắt đầu test: book001_verifyAllSectionsDisplayed ---
+2026-03-23 13:38:09 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: book001_verifyAllSectionsDisplayed
+2026-03-23 13:38:09 [main] INFO  com.insove.tests.BookingTest -   Step: Đăng nhập và mở trang Đặt lịch khám
+2026-03-23 13:38:09 [main] INFO  com.insove.pages.LoginPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/login
+2026-03-23 13:38:09 [main] INFO  com.insove.pages.LoginPage - Mở trang /login
+2026-03-23 13:38:11 [main] INFO  com.insove.pages.LoginPage - Click nút Đăng nhập
+2026-03-23 13:38:12 [main] INFO  com.insove.pages.BookingPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/booking
+2026-03-23 13:38:12 [main] INFO  com.insove.pages.BookingPage - Mo trang Dat lich kham
+2026-03-23 13:38:14 [main] INFO  com.insove.tests.BookingTest -   Step: Kiểm tra section Chọn chi nhánh & Bác sĩ
+2026-03-23 13:38:14 [main] INFO  com.insove.tests.BookingTest -   Step: Kiểm tra section Chọn ngày & Giờ khám
+2026-03-23 13:38:14 [main] INFO  com.insove.tests.BookingTest -   Step: Kiểm tra section Chọn gói dịch vụ
+2026-03-23 13:38:14 [main] INFO  com.insove.tests.BookingTest -   Step: Kiểm tra section Thông tin bổ sung
+2026-03-23 13:38:14 [main] INFO  com.insove.tests.BookingTest -   Step: Kiểm tra nút Đặt lịch khám
+2026-03-23 13:38:14 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: book001_verifyAllSectionsDisplayed
+2026-03-23 13:38:14 [main] INFO  com.insove.tests.BookingTest - PASS: book001_verifyAllSectionsDisplayed
+2026-03-23 13:38:15 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:38:15 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:38:15 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:38:15 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:38:15 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:38:16 [main] INFO  com.insove.tests.BookingTest - --- Bắt đầu test: book003_verifyLabelsAndPlaceholders ---
+2026-03-23 13:38:16 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: book003_verifyLabelsAndPlaceholders
+2026-03-23 13:38:16 [main] INFO  com.insove.tests.BookingTest -   Step: Đăng nhập và mở trang Đặt lịch khám
+2026-03-23 13:38:16 [main] INFO  com.insove.pages.LoginPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/login
+2026-03-23 13:38:16 [main] INFO  com.insove.pages.LoginPage - Mở trang /login
+2026-03-23 13:38:18 [main] INFO  com.insove.pages.LoginPage - Click nút Đăng nhập
+2026-03-23 13:38:19 [main] INFO  com.insove.pages.BookingPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/booking
+2026-03-23 13:38:19 [main] INFO  com.insove.pages.BookingPage - Mo trang Dat lich kham
+2026-03-23 13:38:21 [main] INFO  com.insove.tests.BookingTest -   Step: Kiểm tra placeholder của trường ghi chú
+2026-03-23 13:38:21 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: book003_verifyLabelsAndPlaceholders
+2026-03-23 13:38:21 [main] INFO  com.insove.tests.BookingTest - PASS: book003_verifyLabelsAndPlaceholders
+2026-03-23 13:38:21 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:38:21 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:38:21 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:38:21 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:38:22 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:38:22 [main] INFO  com.insove.tests.BookingTest - --- Bắt đầu test: book006_verifyPageLoadTime ---
+2026-03-23 13:38:22 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: book006_verifyPageLoadTime
+2026-03-23 13:38:22 [main] INFO  com.insove.tests.BookingTest -   Step: Đăng nhập trước
+2026-03-23 13:38:23 [main] INFO  com.insove.pages.LoginPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/login
+2026-03-23 13:38:23 [main] INFO  com.insove.pages.LoginPage - Mở trang /login
+2026-03-23 13:38:24 [main] INFO  com.insove.pages.LoginPage - Click nút Đăng nhập
+2026-03-23 13:38:24 [main] INFO  com.insove.tests.BookingTest -   Step: Đo thời gian tải trang booking
+2026-03-23 13:38:24 [main] INFO  com.insove.pages.BookingPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/booking
+2026-03-23 13:38:24 [main] INFO  com.insove.pages.BookingPage - Mo trang Dat lich kham
+2026-03-23 13:38:26 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: book006_verifyPageLoadTime
+2026-03-23 13:38:26 [main] INFO  com.insove.tests.BookingTest - PASS: book006_verifyPageLoadTime
+2026-03-23 13:38:27 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:38:27 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:38:27 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:38:27 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:38:28 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:38:28 [main] INFO  com.insove.tests.BookingTest - --- Bắt đầu test: book008_verifyBranchDropdown ---
+2026-03-23 13:38:28 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: book008_verifyBranchDropdown
+2026-03-23 13:38:28 [main] INFO  com.insove.tests.BookingTest -   Step: Đăng nhập và mở trang Đặt lịch khám
+2026-03-23 13:38:28 [main] INFO  com.insove.pages.LoginPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/login
+2026-03-23 13:38:28 [main] INFO  com.insove.pages.LoginPage - Mở trang /login
+2026-03-23 13:38:30 [main] INFO  com.insove.pages.LoginPage - Click nút Đăng nhập
+2026-03-23 13:38:31 [main] INFO  com.insove.pages.BookingPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/booking
+2026-03-23 13:38:31 [main] INFO  com.insove.pages.BookingPage - Mo trang Dat lich kham
+2026-03-23 13:38:33 [main] INFO  com.insove.tests.BookingTest -   Step: Mở dropdown chi nhánh và kiểm tra có options
+2026-03-23 13:39:04 [main] WARN  com.insove.pages.BookingPage - jsClick failed for By.cssSelector: select[name*='branch'], [class*='branch'] select, [class*='select'][class*='branch'], [id*='branch']: Expected condition failed: waiting for presence of element located by: By.cssSelector: select[name*='branch'], [class*='branch'] select, [class*='select'][class*='branch'], [id*='branch'] (tried for 20 second(s) with 500 milliseconds interval)
+2026-03-23 13:39:04 [main] ERROR com.insove.listeners.TestListener - ❌ FAIL: book008_verifyBranchDropdown | Lỗi: Dropdown chi nhánh không có lựa chọn nào expected [true] but found [false]
+2026-03-23 13:39:04 [main] INFO  com.insove.utils.ScreenshotUtil - Screenshot đã lưu: screenshots\FAIL_book008_verifyBranchDropdown_2026-03-23_13-39-04.png
+2026-03-23 13:39:04 [main] INFO  com.insove.utils.ScreenshotUtil - Screenshot đã lưu: screenshots\book008_verifyBranchDropdown_2026-03-23_13-39-04.png
+2026-03-23 13:39:04 [main] ERROR com.insove.tests.BookingTest - FAIL: book008_verifyBranchDropdown | Lỗi: Dropdown chi nhánh không có lựa chọn nào expected [true] but found [false]
+2026-03-23 13:39:04 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:39:04 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:39:04 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:39:04 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:39:05 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:39:05 [main] INFO  com.insove.tests.BookingTest - --- Bắt đầu test: book009_verifyBranchList ---
+2026-03-23 13:39:05 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: book009_verifyBranchList
+2026-03-23 13:39:05 [main] INFO  com.insove.tests.BookingTest -   Step: Đăng nhập và mở trang Đặt lịch khám
+2026-03-23 13:39:06 [main] INFO  com.insove.pages.LoginPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/login
+2026-03-23 13:39:06 [main] INFO  com.insove.pages.LoginPage - Mở trang /login
+2026-03-23 13:39:07 [main] INFO  com.insove.pages.LoginPage - Click nút Đăng nhập
+2026-03-23 13:39:09 [main] INFO  com.insove.pages.BookingPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/booking
+2026-03-23 13:39:09 [main] INFO  com.insove.pages.BookingPage - Mo trang Dat lich kham
+2026-03-23 13:39:11 [main] INFO  com.insove.tests.BookingTest -   Step: Kiểm tra dropdown chi nhánh có ít nhất 1 chi nhánh
+2026-03-23 13:39:41 [main] WARN  com.insove.pages.BookingPage - jsClick failed for By.cssSelector: select[name*='branch'], [class*='branch'] select, [class*='select'][class*='branch'], [id*='branch']: Expected condition failed: waiting for presence of element located by: By.cssSelector: select[name*='branch'], [class*='branch'] select, [class*='select'][class*='branch'], [id*='branch'] (tried for 20 second(s) with 500 milliseconds interval)
+2026-03-23 13:39:41 [main] ERROR com.insove.listeners.TestListener - ❌ FAIL: book009_verifyBranchList | Lỗi: Phải có ít nhất 1 chi nhánh trong dropdown expected [true] but found [false]
+2026-03-23 13:39:41 [main] INFO  com.insove.utils.ScreenshotUtil - Screenshot đã lưu: screenshots\FAIL_book009_verifyBranchList_2026-03-23_13-39-41.png
+2026-03-23 13:39:42 [main] INFO  com.insove.utils.ScreenshotUtil - Screenshot đã lưu: screenshots\book009_verifyBranchList_2026-03-23_13-39-41.png
+2026-03-23 13:39:42 [main] ERROR com.insove.tests.BookingTest - FAIL: book009_verifyBranchList | Lỗi: Phải có ít nhất 1 chi nhánh trong dropdown expected [true] but found [false]
+2026-03-23 13:39:42 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:39:42 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:39:42 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:39:42 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:39:43 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:39:43 [main] INFO  com.insove.tests.BookingTest - --- Bắt đầu test: book010_errorWhenNoBranchSelected ---
+2026-03-23 13:39:43 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: book010_errorWhenNoBranchSelected
+2026-03-23 13:39:43 [main] INFO  com.insove.tests.BookingTest -   Step: Đăng nhập và mở trang Đặt lịch khám
+2026-03-23 13:39:44 [main] INFO  com.insove.pages.LoginPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/login
+2026-03-23 13:39:44 [main] INFO  com.insove.pages.LoginPage - Mở trang /login
+2026-03-23 13:39:45 [main] INFO  com.insove.pages.LoginPage - Click nút Đăng nhập
+2026-03-23 13:39:47 [main] INFO  com.insove.pages.BookingPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/booking
+2026-03-23 13:39:47 [main] INFO  com.insove.pages.BookingPage - Mo trang Dat lich kham
+2026-03-23 13:39:49 [main] INFO  com.insove.tests.BookingTest -   Step: Click Đặt lịch mà không chọn chi nhánh
+2026-03-23 13:39:49 [main] INFO  com.insove.tests.BookingTest -   Step: Kiểm tra thông báo lỗi hoặc vẫn ở trang booking
+2026-03-23 13:40:04 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: book010_errorWhenNoBranchSelected
+2026-03-23 13:40:04 [main] INFO  com.insove.tests.BookingTest - PASS: book010_errorWhenNoBranchSelected
+2026-03-23 13:40:04 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:40:04 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:40:04 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:40:04 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:40:05 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:40:05 [main] INFO  com.insove.tests.BookingTest - --- Bắt đầu test: book011_doctorListUpdatesByBranch ---
+2026-03-23 13:40:05 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: book011_doctorListUpdatesByBranch
+2026-03-23 13:40:05 [main] INFO  com.insove.tests.BookingTest -   Step: Đăng nhập và mở trang Đặt lịch khám
+2026-03-23 13:40:20 [main] INFO  com.insove.pages.LoginPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/login
+2026-03-23 13:40:20 [main] INFO  com.insove.pages.LoginPage - Mở trang /login
+2026-03-23 13:40:22 [main] INFO  com.insove.pages.LoginPage - Click nút Đăng nhập
+2026-03-23 13:41:00 [main] ERROR com.insove.listeners.TestListener - ❌ FAIL: book011_doctorListUpdatesByBranch | Lỗi: timeout: Timed out receiving message from renderer: -0.015
+  (Session info: chrome=146.0.7680.153)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a4fee9f94b265486a3726e09dc2cb795, get {url=https://demo6.cybersoft.edu.vn/booking}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.153, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51007}, goog:processID: 21076, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51007/devtoo..., se:cdpVersion: 146.0.7680.153, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a4fee9f94b265486a3726e09dc2cb795
+2026-03-23 13:41:00 [main] INFO  com.insove.utils.ScreenshotUtil - Screenshot đã lưu: screenshots\FAIL_book011_doctorListUpdatesByBranch_2026-03-23_13-41-00.png
+2026-03-23 13:41:01 [main] INFO  com.insove.utils.ScreenshotUtil - Screenshot đã lưu: screenshots\book011_doctorListUpdatesByBranch_2026-03-23_13-41-00.png
+2026-03-23 13:41:01 [main] ERROR com.insove.tests.BookingTest - FAIL: book011_doctorListUpdatesByBranch | Lỗi: timeout: Timed out receiving message from renderer: -0.015
+  (Session info: chrome=146.0.7680.153)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a4fee9f94b265486a3726e09dc2cb795, get {url=https://demo6.cybersoft.edu.vn/booking}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.153, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51007}, goog:processID: 21076, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51007/devtoo..., se:cdpVersion: 146.0.7680.153, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a4fee9f94b265486a3726e09dc2cb795
+2026-03-23 13:41:01 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:41:01 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:41:01 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:41:01 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:41:02 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:41:02 [main] INFO  com.insove.tests.BookingTest - --- Bắt đầu test: book018_verifyCalendarShowsCurrentMonth ---
+2026-03-23 13:41:03 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: book018_verifyCalendarShowsCurrentMonth
+2026-03-23 13:41:03 [main] INFO  com.insove.tests.BookingTest -   Step: Đăng nhập và mở trang Đặt lịch khám
+2026-03-23 13:41:04 [main] ERROR com.insove.listeners.TestListener - ❌ FAIL: book018_verifyCalendarShowsCurrentMonth | Lỗi: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=146.0.7680.153)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e520a58da0d0f8eb83bf90b6416dc781, get {url=https://demo6.cybersoft.edu.vn/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.153, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64530}, goog:processID: 4504, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64530/devtoo..., se:cdpVersion: 146.0.7680.153, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e520a58da0d0f8eb83bf90b6416dc781
+2026-03-23 13:41:04 [main] INFO  com.insove.utils.ScreenshotUtil - Screenshot đã lưu: screenshots\FAIL_book018_verifyCalendarShowsCurrentMonth_2026-03-23_13-41-04.png
+2026-03-23 13:41:04 [main] INFO  com.insove.utils.ScreenshotUtil - Screenshot đã lưu: screenshots\book018_verifyCalendarShowsCurrentMonth_2026-03-23_13-41-04.png
+2026-03-23 13:41:04 [main] ERROR com.insove.tests.BookingTest - FAIL: book018_verifyCalendarShowsCurrentMonth | Lỗi: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=146.0.7680.153)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e520a58da0d0f8eb83bf90b6416dc781, get {url=https://demo6.cybersoft.edu.vn/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.153, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64530}, goog:processID: 4504, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64530/devtoo..., se:cdpVersion: 146.0.7680.153, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e520a58da0d0f8eb83bf90b6416dc781
+2026-03-23 13:41:05 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:41:05 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:41:05 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:41:05 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:41:06 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:41:06 [main] INFO  com.insove.tests.BookingTest - --- Bắt đầu test: book019_verifyCalendarNavigation ---
+2026-03-23 13:41:06 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: book019_verifyCalendarNavigation
+2026-03-23 13:41:06 [main] INFO  com.insove.tests.BookingTest -   Step: Đăng nhập và mở trang Đặt lịch khám
+2026-03-23 13:41:07 [main] INFO  com.insove.pages.LoginPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/login
+2026-03-23 13:41:07 [main] INFO  com.insove.pages.LoginPage - Mở trang /login
+2026-03-23 13:41:09 [main] INFO  com.insove.pages.LoginPage - Click nút Đăng nhập
+2026-03-23 13:41:12 [main] INFO  com.insove.pages.BookingPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/booking
+2026-03-23 13:41:12 [main] INFO  com.insove.pages.BookingPage - Mo trang Dat lich kham
+2026-03-23 13:41:14 [main] INFO  com.insove.tests.BookingTest -   Step: Ghi nhớ tháng hiện tại
+2026-03-23 13:41:14 [main] INFO  com.insove.tests.BookingTest -   Step: Click sang tháng tiếp theo
+2026-03-23 13:41:14 [main] INFO  com.insove.tests.BookingTest -   Step: Kiểm tra tháng đã thay đổi
+2026-03-23 13:41:14 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: book019_verifyCalendarNavigation
+2026-03-23 13:41:14 [main] INFO  com.insove.tests.BookingTest - PASS: book019_verifyCalendarNavigation
+2026-03-23 13:41:15 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:41:15 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:41:15 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:41:15 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:41:16 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:41:16 [main] INFO  com.insove.tests.BookingTest - --- Bắt đầu test: book021_verifyDaySelection ---
+2026-03-23 13:41:16 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: book021_verifyDaySelection
+2026-03-23 13:41:16 [main] INFO  com.insove.tests.BookingTest -   Step: Đăng nhập và mở trang Đặt lịch khám
+2026-03-23 13:41:17 [main] INFO  com.insove.pages.LoginPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/login
+2026-03-23 13:41:17 [main] INFO  com.insove.pages.LoginPage - Mở trang /login
+2026-03-23 13:41:18 [main] INFO  com.insove.pages.LoginPage - Click nút Đăng nhập
+2026-03-23 13:41:20 [main] INFO  com.insove.pages.BookingPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/booking
+2026-03-23 13:41:20 [main] INFO  com.insove.pages.BookingPage - Mo trang Dat lich kham
+2026-03-23 13:41:22 [main] INFO  com.insove.tests.BookingTest -   Step: Chọn ngày available đầu tiên
+2026-03-23 13:41:22 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: book021_verifyDaySelection
+2026-03-23 13:41:22 [main] INFO  com.insove.tests.BookingTest - PASS: book021_verifyDaySelection
+2026-03-23 13:41:22 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:41:22 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:41:22 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:41:22 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:41:23 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:41:23 [main] INFO  com.insove.tests.BookingTest - --- Bắt đầu test: book026_verifyTimeSlotSelection ---
+2026-03-23 13:41:23 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: book026_verifyTimeSlotSelection
+2026-03-23 13:41:23 [main] INFO  com.insove.tests.BookingTest -   Step: Đăng nhập và mở trang Đặt lịch khám
+2026-03-23 13:41:24 [main] INFO  com.insove.pages.LoginPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/login
+2026-03-23 13:41:24 [main] INFO  com.insove.pages.LoginPage - Mở trang /login
+2026-03-23 13:41:25 [main] INFO  com.insove.pages.LoginPage - Click nút Đăng nhập
+2026-03-23 13:41:26 [main] INFO  com.insove.pages.BookingPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/booking
+2026-03-23 13:41:26 [main] INFO  com.insove.pages.BookingPage - Mo trang Dat lich kham
+2026-03-23 13:41:28 [main] INFO  com.insove.tests.BookingTest -   Step: Chọn chi nhánh, bác sĩ, và ngày trước
+2026-03-23 13:41:59 [main] WARN  com.insove.pages.BookingPage - Khong tim thay chi nhanh: Chi nhánh trung tâm
+2026-03-23 13:41:59 [main] INFO  com.insove.tests.BookingTest -   Step: Kiểm tra khung giờ hoặc thông báo không có giờ
+2026-03-23 13:42:29 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: book026_verifyTimeSlotSelection
+2026-03-23 13:42:29 [main] INFO  com.insove.tests.BookingTest - PASS: book026_verifyTimeSlotSelection
+2026-03-23 13:42:29 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:42:29 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:42:29 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:42:29 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:42:30 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:42:30 [main] INFO  com.insove.tests.BookingTest - --- Bắt đầu test: book030_verifyServicePackagesDisplay ---
+2026-03-23 13:42:30 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: book030_verifyServicePackagesDisplay
+2026-03-23 13:42:30 [main] INFO  com.insove.tests.BookingTest -   Step: Đăng nhập và mở trang Đặt lịch khám
+2026-03-23 13:42:31 [main] INFO  com.insove.pages.LoginPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/login
+2026-03-23 13:42:31 [main] INFO  com.insove.pages.LoginPage - Mở trang /login
+2026-03-23 13:42:33 [main] INFO  com.insove.pages.LoginPage - Click nút Đăng nhập
+2026-03-23 13:42:34 [main] INFO  com.insove.pages.BookingPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/booking
+2026-03-23 13:42:34 [main] INFO  com.insove.pages.BookingPage - Mo trang Dat lich kham
+2026-03-23 13:42:36 [main] INFO  com.insove.tests.BookingTest -   Step: Kiểm tra section gói dịch vụ
+2026-03-23 13:42:36 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: book030_verifyServicePackagesDisplay
+2026-03-23 13:42:36 [main] INFO  com.insove.tests.BookingTest - PASS: book030_verifyServicePackagesDisplay
+2026-03-23 13:42:36 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:42:36 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:42:36 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:42:36 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:42:37 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:42:37 [main] INFO  com.insove.tests.BookingTest - --- Bắt đầu test: book032_verifyOnlyOneServiceSelectable ---
+2026-03-23 13:42:37 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: book032_verifyOnlyOneServiceSelectable
+2026-03-23 13:42:37 [main] INFO  com.insove.tests.BookingTest -   Step: Đăng nhập và mở trang Đặt lịch khám
+2026-03-23 13:42:38 [main] INFO  com.insove.pages.LoginPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/login
+2026-03-23 13:42:38 [main] INFO  com.insove.pages.LoginPage - Mở trang /login
+2026-03-23 13:42:39 [main] INFO  com.insove.pages.LoginPage - Click nút Đăng nhập
+2026-03-23 13:42:40 [main] INFO  com.insove.pages.BookingPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/booking
+2026-03-23 13:42:40 [main] INFO  com.insove.pages.BookingPage - Mo trang Dat lich kham
+2026-03-23 13:42:42 [main] INFO  com.insove.tests.BookingTest -   Step: Chọn gói dịch vụ đầu tiên
+2026-03-23 13:42:42 [main] INFO  com.insove.tests.BookingTest -   Step: Chọn gói dịch vụ thứ hai
+2026-03-23 13:42:42 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: book032_verifyOnlyOneServiceSelectable
+2026-03-23 13:42:42 [main] INFO  com.insove.tests.BookingTest - PASS: book032_verifyOnlyOneServiceSelectable
+2026-03-23 13:42:43 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:42:43 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:42:43 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:42:43 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:42:44 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:42:44 [main] INFO  com.insove.tests.BookingTest - --- Bắt đầu test: book038_verifyNoteFieldMultiline ---
+2026-03-23 13:42:44 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: book038_verifyNoteFieldMultiline
+2026-03-23 13:42:44 [main] INFO  com.insove.tests.BookingTest -   Step: Đăng nhập và mở trang Đặt lịch khám
+2026-03-23 13:42:44 [main] INFO  com.insove.pages.LoginPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/login
+2026-03-23 13:42:44 [main] INFO  com.insove.pages.LoginPage - Mở trang /login
+2026-03-23 13:42:46 [main] INFO  com.insove.pages.LoginPage - Click nút Đăng nhập
+2026-03-23 13:42:47 [main] INFO  com.insove.pages.BookingPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/booking
+2026-03-23 13:42:47 [main] INFO  com.insove.pages.BookingPage - Mo trang Dat lich kham
+2026-03-23 13:42:49 [main] INFO  com.insove.tests.BookingTest -   Step: Nhập text nhiều dòng vào trường ghi chú
+2026-03-23 13:42:49 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: book038_verifyNoteFieldMultiline
+2026-03-23 13:42:49 [main] INFO  com.insove.tests.BookingTest - PASS: book038_verifyNoteFieldMultiline
+2026-03-23 13:42:50 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:42:50 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:42:50 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:42:50 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:42:50 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:42:50 [main] INFO  com.insove.tests.BookingTest - --- Bắt đầu test: book039_verifyNotePlaceholder ---
+2026-03-23 13:42:50 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: book039_verifyNotePlaceholder
+2026-03-23 13:42:51 [main] INFO  com.insove.tests.BookingTest -   Step: Đăng nhập và mở trang Đặt lịch khám
+2026-03-23 13:42:51 [main] INFO  com.insove.pages.LoginPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/login
+2026-03-23 13:42:51 [main] INFO  com.insove.pages.LoginPage - Mở trang /login
+2026-03-23 13:42:53 [main] INFO  com.insove.pages.LoginPage - Click nút Đăng nhập
+2026-03-23 13:42:54 [main] INFO  com.insove.pages.BookingPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/booking
+2026-03-23 13:42:54 [main] INFO  com.insove.pages.BookingPage - Mo trang Dat lich kham
+2026-03-23 13:42:56 [main] INFO  com.insove.tests.BookingTest -   Step: Kiểm tra placeholder của trường ghi chú
+2026-03-23 13:42:56 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: book039_verifyNotePlaceholder
+2026-03-23 13:42:56 [main] INFO  com.insove.tests.BookingTest - PASS: book039_verifyNotePlaceholder
+2026-03-23 13:42:56 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:42:56 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:42:56 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:42:56 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:42:57 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:42:57 [main] INFO  com.insove.tests.BookingTest - --- Bắt đầu test: book043_verifySubmitButtonBehavior ---
+2026-03-23 13:42:57 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: book043_verifySubmitButtonBehavior
+2026-03-23 13:42:57 [main] INFO  com.insove.tests.BookingTest -   Step: Đăng nhập và mở trang Đặt lịch khám
+2026-03-23 13:42:58 [main] INFO  com.insove.pages.LoginPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/login
+2026-03-23 13:42:58 [main] INFO  com.insove.pages.LoginPage - Mở trang /login
+2026-03-23 13:43:00 [main] INFO  com.insove.pages.LoginPage - Click nút Đăng nhập
+2026-03-23 13:43:01 [main] INFO  com.insove.pages.BookingPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/booking
+2026-03-23 13:43:01 [main] INFO  com.insove.pages.BookingPage - Mo trang Dat lich kham
+2026-03-23 13:43:03 [main] INFO  com.insove.tests.BookingTest -   Step: Kiểm tra nút Đặt lịch khám hiển thị
+2026-03-23 13:43:03 [main] INFO  com.insove.tests.BookingTest -   Step: Click submit khi chưa điền thông tin
+2026-03-23 13:43:03 [main] INFO  com.insove.tests.BookingTest -   Step: Kiểm tra validation: phải có lỗi hoặc vẫn ở trang booking
+2026-03-23 13:43:18 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: book043_verifySubmitButtonBehavior
+2026-03-23 13:43:18 [main] INFO  com.insove.tests.BookingTest - PASS: book043_verifySubmitButtonBehavior
+2026-03-23 13:43:18 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:43:18 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:43:18 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:43:18 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:43:19 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:43:19 [main] INFO  com.insove.tests.BookingTest - --- Bắt đầu test: book045_verifySuccessAfterBooking ---
+2026-03-23 13:43:19 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: book045_verifySuccessAfterBooking
+2026-03-23 13:43:19 [main] INFO  com.insove.tests.BookingTest -   Step: Đăng nhập và mở trang Đặt lịch khám
+2026-03-23 13:43:20 [main] INFO  com.insove.pages.LoginPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/login
+2026-03-23 13:43:20 [main] INFO  com.insove.pages.LoginPage - Mở trang /login
+2026-03-23 13:43:21 [main] INFO  com.insove.pages.LoginPage - Click nút Đăng nhập
+2026-03-23 13:43:23 [main] INFO  com.insove.pages.BookingPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/booking
+2026-03-23 13:43:23 [main] INFO  com.insove.pages.BookingPage - Mo trang Dat lich kham
+2026-03-23 13:43:25 [main] INFO  com.insove.tests.BookingTest -   Step: Điền đầy đủ thông tin đặt lịch
+2026-03-23 13:43:55 [main] WARN  com.insove.pages.BookingPage - Khong tim thay chi nhanh: Chi nhánh trung tâm
+2026-03-23 13:44:26 [main] WARN  com.insove.pages.BookingPage - Khong tim thay bac si: Leslie Taylor
+2026-03-23 13:44:41 [main] INFO  com.insove.tests.BookingTest -   Step: Click Đặt lịch khám
+2026-03-23 13:44:41 [main] INFO  com.insove.tests.BookingTest -   Step: Kiểm tra thông báo thành công hoặc điều hướng xác nhận
+2026-03-23 13:44:56 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: book045_verifySuccessAfterBooking
+2026-03-23 13:44:56 [main] INFO  com.insove.tests.BookingTest - PASS: book045_verifySuccessAfterBooking
+2026-03-23 13:44:57 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:44:57 [main] INFO  com.insove.listeners.TestListener - ========== KẾT THÚC: Booking Tests | Pass: 13 | Fail: 4 | Skip: 0 ==========
+2026-03-23 13:44:57 [main] INFO  c.insove.utils.ExtentReportManager - Report đã được lưu
+2026-03-23 13:44:57 [main] INFO  com.insove.listeners.TestListener - ========== BẮT ĐẦU: Profile Tests ==========
+2026-03-23 13:44:57 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:44:57 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:44:57 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:44:58 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:44:58 [main] INFO  com.insove.tests.ProfileTest - --- Bắt đầu test: pro001_verifyProfilePageLoads ---
+2026-03-23 13:44:58 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: pro001_verifyProfilePageLoads
+2026-03-23 13:44:58 [main] INFO  com.insove.tests.ProfileTest -   Step: Đăng nhập và mở trang Hồ sơ
+2026-03-23 13:44:58 [main] INFO  com.insove.pages.LoginPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/login
+2026-03-23 13:44:58 [main] INFO  com.insove.pages.LoginPage - Mở trang /login
+2026-03-23 13:45:00 [main] INFO  com.insove.pages.LoginPage - Click nút Đăng nhập
+2026-03-23 13:45:01 [main] INFO  com.insove.pages.ProfilePage - Điều hướng đến: https://demo6.cybersoft.edu.vn/user-info
+2026-03-23 13:45:01 [main] INFO  com.insove.pages.ProfilePage - Mo trang Ho so nguoi dung
+2026-03-23 13:45:03 [main] INFO  com.insove.tests.ProfileTest -   Step: Kiểm tra trang profile tải thành công
+2026-03-23 13:45:03 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: pro001_verifyProfilePageLoads
+2026-03-23 13:45:03 [main] INFO  com.insove.tests.ProfileTest - PASS: pro001_verifyProfilePageLoads
+2026-03-23 13:45:03 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:45:03 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:45:03 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:45:03 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:45:04 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:45:04 [main] INFO  com.insove.tests.ProfileTest - --- Bắt đầu test: pro002_verifyProfileLoadTime ---
+2026-03-23 13:45:04 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: pro002_verifyProfileLoadTime
+2026-03-23 13:45:04 [main] INFO  com.insove.tests.ProfileTest -   Step: Đăng nhập trước
+2026-03-23 13:45:05 [main] INFO  com.insove.pages.LoginPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/login
+2026-03-23 13:45:05 [main] INFO  com.insove.pages.LoginPage - Mở trang /login
+2026-03-23 13:45:06 [main] INFO  com.insove.pages.LoginPage - Click nút Đăng nhập
+2026-03-23 13:45:06 [main] INFO  com.insove.tests.ProfileTest -   Step: Đo thời gian tải trang profile
+2026-03-23 13:45:06 [main] INFO  com.insove.pages.ProfilePage - Điều hướng đến: https://demo6.cybersoft.edu.vn/user-info
+2026-03-23 13:45:06 [main] INFO  com.insove.pages.ProfilePage - Mo trang Ho so nguoi dung
+2026-03-23 13:45:08 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: pro002_verifyProfileLoadTime
+2026-03-23 13:45:08 [main] INFO  com.insove.tests.ProfileTest - PASS: pro002_verifyProfileLoadTime
+2026-03-23 13:45:08 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:45:08 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:45:08 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:45:08 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:45:09 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:45:09 [main] INFO  com.insove.tests.ProfileTest - --- Bắt đầu test: pro003_verifyProfileUrl ---
+2026-03-23 13:45:09 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: pro003_verifyProfileUrl
+2026-03-23 13:45:09 [main] INFO  com.insove.tests.ProfileTest -   Step: Đăng nhập và mở trang Hồ sơ
+2026-03-23 13:45:10 [main] INFO  com.insove.pages.LoginPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/login
+2026-03-23 13:45:10 [main] INFO  com.insove.pages.LoginPage - Mở trang /login
+2026-03-23 13:45:11 [main] INFO  com.insove.pages.LoginPage - Click nút Đăng nhập
+2026-03-23 13:45:13 [main] INFO  com.insove.pages.ProfilePage - Điều hướng đến: https://demo6.cybersoft.edu.vn/user-info
+2026-03-23 13:45:13 [main] INFO  com.insove.pages.ProfilePage - Mo trang Ho so nguoi dung
+2026-03-23 13:45:14 [main] INFO  com.insove.tests.ProfileTest -   Step: Kiểm tra URL chứa 'user-info'
+2026-03-23 13:45:14 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: pro003_verifyProfileUrl
+2026-03-23 13:45:14 [main] INFO  com.insove.tests.ProfileTest - PASS: pro003_verifyProfileUrl
+2026-03-23 13:45:14 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:45:14 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:45:14 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:45:14 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:45:15 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:45:15 [main] INFO  com.insove.tests.ProfileTest - --- Bắt đầu test: pro004_verifyAvatarDisplay ---
+2026-03-23 13:45:15 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: pro004_verifyAvatarDisplay
+2026-03-23 13:45:15 [main] INFO  com.insove.tests.ProfileTest -   Step: Đăng nhập và mở trang Hồ sơ
+2026-03-23 13:45:16 [main] INFO  com.insove.pages.LoginPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/login
+2026-03-23 13:45:16 [main] INFO  com.insove.pages.LoginPage - Mở trang /login
+2026-03-23 13:45:17 [main] INFO  com.insove.pages.LoginPage - Click nút Đăng nhập
+2026-03-23 13:45:19 [main] INFO  com.insove.pages.ProfilePage - Điều hướng đến: https://demo6.cybersoft.edu.vn/user-info
+2026-03-23 13:45:19 [main] INFO  com.insove.pages.ProfilePage - Mo trang Ho so nguoi dung
+2026-03-23 13:45:20 [main] INFO  com.insove.tests.ProfileTest -   Step: Kiểm tra avatar hoặc ký tự đại diện hiển thị
+2026-03-23 13:45:20 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: pro004_verifyAvatarDisplay
+2026-03-23 13:45:20 [main] INFO  com.insove.tests.ProfileTest - PASS: pro004_verifyAvatarDisplay
+2026-03-23 13:45:20 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:45:20 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:45:20 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:45:20 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:45:21 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:45:21 [main] INFO  com.insove.tests.ProfileTest - --- Bắt đầu test: pro005_verifyUserNameAndEmailDisplay ---
+2026-03-23 13:45:21 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: pro005_verifyUserNameAndEmailDisplay
+2026-03-23 13:45:21 [main] INFO  com.insove.tests.ProfileTest -   Step: Đăng nhập và mở trang Hồ sơ
+2026-03-23 13:45:22 [main] INFO  com.insove.pages.LoginPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/login
+2026-03-23 13:45:22 [main] INFO  com.insove.pages.LoginPage - Mở trang /login
+2026-03-23 13:45:23 [main] INFO  com.insove.pages.LoginPage - Click nút Đăng nhập
+2026-03-23 13:45:25 [main] INFO  com.insove.pages.ProfilePage - Điều hướng đến: https://demo6.cybersoft.edu.vn/user-info
+2026-03-23 13:45:25 [main] INFO  com.insove.pages.ProfilePage - Mo trang Ho so nguoi dung
+2026-03-23 13:45:26 [main] INFO  com.insove.tests.ProfileTest -   Step: Kiểm tra tên người dùng hiển thị
+2026-03-23 13:45:41 [main] ERROR com.insove.listeners.TestListener - ❌ FAIL: pro005_verifyUserNameAndEmailDisplay | Lỗi: Tên người dùng không hiển thị trên trang Hồ sơ expected [true] but found [false]
+2026-03-23 13:45:41 [main] INFO  com.insove.utils.ScreenshotUtil - Screenshot đã lưu: screenshots\FAIL_pro005_verifyUserNameAndEmailDisplay_2026-03-23_13-45-41.png
+2026-03-23 13:45:42 [main] INFO  com.insove.utils.ScreenshotUtil - Screenshot đã lưu: screenshots\pro005_verifyUserNameAndEmailDisplay_2026-03-23_13-45-41.png
+2026-03-23 13:45:42 [main] ERROR com.insove.tests.ProfileTest - FAIL: pro005_verifyUserNameAndEmailDisplay | Lỗi: Tên người dùng không hiển thị trên trang Hồ sơ expected [true] but found [false]
+2026-03-23 13:45:42 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:45:42 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:45:42 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:45:42 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:45:43 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:45:43 [main] INFO  com.insove.tests.ProfileTest - --- Bắt đầu test: pro006_verifyPersonalInfoLabels ---
+2026-03-23 13:45:43 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: pro006_verifyPersonalInfoLabels
+2026-03-23 13:45:43 [main] INFO  com.insove.tests.ProfileTest -   Step: Đăng nhập và mở trang Hồ sơ
+2026-03-23 13:45:44 [main] INFO  com.insove.pages.LoginPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/login
+2026-03-23 13:45:44 [main] INFO  com.insove.pages.LoginPage - Mở trang /login
+2026-03-23 13:45:45 [main] INFO  com.insove.pages.LoginPage - Click nút Đăng nhập
+2026-03-23 13:45:46 [main] INFO  com.insove.pages.ProfilePage - Điều hướng đến: https://demo6.cybersoft.edu.vn/user-info
+2026-03-23 13:45:46 [main] INFO  com.insove.pages.ProfilePage - Mo trang Ho so nguoi dung
+2026-03-23 13:45:48 [main] INFO  com.insove.tests.ProfileTest -   Step: Kiểm tra nhãn Số điện thoại
+2026-03-23 13:45:48 [main] INFO  com.insove.tests.ProfileTest -   Step: Kiểm tra nhãn Địa chỉ
+2026-03-23 13:45:48 [main] INFO  com.insove.tests.ProfileTest -   Step: Kiểm tra nhãn Ngày tham gia
+2026-03-23 13:46:03 [main] ERROR com.insove.listeners.TestListener - ❌ FAIL: pro006_verifyPersonalInfoLabels | Lỗi: Nhãn 'Ngày tham gia' không hiển thị expected [true] but found [false]
+2026-03-23 13:46:03 [main] INFO  com.insove.utils.ScreenshotUtil - Screenshot đã lưu: screenshots\FAIL_pro006_verifyPersonalInfoLabels_2026-03-23_13-46-03.png
+2026-03-23 13:46:03 [main] INFO  com.insove.utils.ScreenshotUtil - Screenshot đã lưu: screenshots\pro006_verifyPersonalInfoLabels_2026-03-23_13-46-03.png
+2026-03-23 13:46:03 [main] ERROR com.insove.tests.ProfileTest - FAIL: pro006_verifyPersonalInfoLabels | Lỗi: Nhãn 'Ngày tham gia' không hiển thị expected [true] but found [false]
+2026-03-23 13:46:04 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:46:04 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:46:04 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:46:04 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:46:05 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:46:05 [main] INFO  com.insove.tests.ProfileTest - --- Bắt đầu test: pro010_verifyChangePasswordButtonDisplayed ---
+2026-03-23 13:46:05 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: pro010_verifyChangePasswordButtonDisplayed
+2026-03-23 13:46:05 [main] INFO  com.insove.tests.ProfileTest -   Step: Đăng nhập và mở trang Hồ sơ
+2026-03-23 13:46:05 [main] INFO  com.insove.pages.LoginPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/login
+2026-03-23 13:46:05 [main] INFO  com.insove.pages.LoginPage - Mở trang /login
+2026-03-23 13:46:07 [main] INFO  com.insove.pages.LoginPage - Click nút Đăng nhập
+2026-03-23 13:46:08 [main] INFO  com.insove.pages.ProfilePage - Điều hướng đến: https://demo6.cybersoft.edu.vn/user-info
+2026-03-23 13:46:08 [main] INFO  com.insove.pages.ProfilePage - Mo trang Ho so nguoi dung
+2026-03-23 13:46:09 [main] INFO  com.insove.tests.ProfileTest -   Step: Kiểm tra nút Đổi mật khẩu hiển thị
+2026-03-23 13:46:09 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: pro010_verifyChangePasswordButtonDisplayed
+2026-03-23 13:46:09 [main] INFO  com.insove.tests.ProfileTest - PASS: pro010_verifyChangePasswordButtonDisplayed
+2026-03-23 13:46:10 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:46:10 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:46:10 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:46:10 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:46:11 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:46:11 [main] INFO  com.insove.tests.ProfileTest - --- Bắt đầu test: pro011_verifyChangePasswordFormOpens ---
+2026-03-23 13:46:11 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: pro011_verifyChangePasswordFormOpens
+2026-03-23 13:46:11 [main] INFO  com.insove.tests.ProfileTest -   Step: Đăng nhập và mở trang Hồ sơ
+2026-03-23 13:46:11 [main] INFO  com.insove.pages.LoginPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/login
+2026-03-23 13:46:11 [main] INFO  com.insove.pages.LoginPage - Mở trang /login
+2026-03-23 13:46:13 [main] INFO  com.insove.pages.LoginPage - Click nút Đăng nhập
+2026-03-23 13:46:14 [main] INFO  com.insove.pages.ProfilePage - Điều hướng đến: https://demo6.cybersoft.edu.vn/user-info
+2026-03-23 13:46:14 [main] INFO  com.insove.pages.ProfilePage - Mo trang Ho so nguoi dung
+2026-03-23 13:46:15 [main] INFO  com.insove.tests.ProfileTest -   Step: Click nút Đổi mật khẩu
+2026-03-23 13:46:16 [main] INFO  com.insove.tests.ProfileTest -   Step: Kiểm tra form đổi mật khẩu hiển thị
+2026-03-23 13:46:16 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: pro011_verifyChangePasswordFormOpens
+2026-03-23 13:46:16 [main] INFO  com.insove.tests.ProfileTest - PASS: pro011_verifyChangePasswordFormOpens
+2026-03-23 13:46:16 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:46:16 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:46:16 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:46:16 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:46:17 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:46:17 [main] INFO  com.insove.tests.ProfileTest - --- Bắt đầu test: pro015_errorOnWrongCurrentPassword ---
+2026-03-23 13:46:17 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: pro015_errorOnWrongCurrentPassword
+2026-03-23 13:46:17 [main] INFO  com.insove.tests.ProfileTest -   Step: Đăng nhập và mở trang Hồ sơ
+2026-03-23 13:46:18 [main] INFO  com.insove.pages.LoginPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/login
+2026-03-23 13:46:18 [main] INFO  com.insove.pages.LoginPage - Mở trang /login
+2026-03-23 13:46:19 [main] INFO  com.insove.pages.LoginPage - Click nút Đăng nhập
+2026-03-23 13:46:20 [main] INFO  com.insove.pages.ProfilePage - Điều hướng đến: https://demo6.cybersoft.edu.vn/user-info
+2026-03-23 13:46:20 [main] INFO  com.insove.pages.ProfilePage - Mo trang Ho so nguoi dung
+2026-03-23 13:46:22 [main] INFO  com.insove.tests.ProfileTest -   Step: Click nút Đổi mật khẩu và nhập sai mật khẩu hiện tại
+2026-03-23 13:46:22 [main] INFO  com.insove.tests.ProfileTest -   Step: Kiểm tra thông báo lỗi
+2026-03-23 13:46:23 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: pro015_errorOnWrongCurrentPassword
+2026-03-23 13:46:23 [main] INFO  com.insove.tests.ProfileTest - PASS: pro015_errorOnWrongCurrentPassword
+2026-03-23 13:46:23 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:46:23 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:46:23 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:46:23 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:46:24 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:46:24 [main] INFO  com.insove.tests.ProfileTest - --- Bắt đầu test: pro016_passwordMismatchError ---
+2026-03-23 13:46:24 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: pro016_passwordMismatchError
+2026-03-23 13:46:24 [main] INFO  com.insove.tests.ProfileTest -   Step: Đăng nhập và mở trang Hồ sơ
+2026-03-23 13:46:25 [main] INFO  com.insove.pages.LoginPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/login
+2026-03-23 13:46:25 [main] INFO  com.insove.pages.LoginPage - Mở trang /login
+2026-03-23 13:46:26 [main] INFO  com.insove.pages.LoginPage - Click nút Đăng nhập
+2026-03-23 13:46:28 [main] INFO  com.insove.pages.ProfilePage - Điều hướng đến: https://demo6.cybersoft.edu.vn/user-info
+2026-03-23 13:46:28 [main] INFO  com.insove.pages.ProfilePage - Mo trang Ho so nguoi dung
+2026-03-23 13:46:29 [main] INFO  com.insove.tests.ProfileTest -   Step: Mở form đổi mật khẩu và nhập mật khẩu không khớp
+2026-03-23 13:46:30 [main] INFO  com.insove.tests.ProfileTest -   Step: Kiểm tra thông báo lỗi mật khẩu không khớp
+2026-03-23 13:46:30 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: pro016_passwordMismatchError
+2026-03-23 13:46:30 [main] INFO  com.insove.tests.ProfileTest - PASS: pro016_passwordMismatchError
+2026-03-23 13:46:30 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:46:30 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:46:30 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:46:30 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:46:31 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:46:31 [main] INFO  com.insove.tests.ProfileTest - --- Bắt đầu test: pro024_verifyAllTabsDisplayed ---
+2026-03-23 13:46:31 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: pro024_verifyAllTabsDisplayed
+2026-03-23 13:46:31 [main] INFO  com.insove.tests.ProfileTest -   Step: Đăng nhập và mở trang Hồ sơ
+2026-03-23 13:46:32 [main] INFO  com.insove.pages.LoginPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/login
+2026-03-23 13:46:32 [main] INFO  com.insove.pages.LoginPage - Mở trang /login
+2026-03-23 13:46:33 [main] INFO  com.insove.pages.LoginPage - Click nút Đăng nhập
+2026-03-23 13:46:34 [main] INFO  com.insove.pages.ProfilePage - Điều hướng đến: https://demo6.cybersoft.edu.vn/user-info
+2026-03-23 13:46:34 [main] INFO  com.insove.pages.ProfilePage - Mo trang Ho so nguoi dung
+2026-03-23 13:46:36 [main] INFO  com.insove.tests.ProfileTest -   Step: Kiểm tra tab Lịch hẹn
+2026-03-23 13:46:36 [main] INFO  com.insove.tests.ProfileTest -   Step: Kiểm tra tab Danh sách chờ
+2026-03-23 13:46:36 [main] INFO  com.insove.tests.ProfileTest -   Step: Kiểm tra tab Đơn thuốc
+2026-03-23 13:46:36 [main] INFO  com.insove.tests.ProfileTest -   Step: Kiểm tra tab Hóa đơn
+2026-03-23 13:46:36 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: pro024_verifyAllTabsDisplayed
+2026-03-23 13:46:36 [main] INFO  com.insove.tests.ProfileTest - PASS: pro024_verifyAllTabsDisplayed
+2026-03-23 13:46:36 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:46:36 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:46:36 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:46:36 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:46:37 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:46:37 [main] INFO  com.insove.tests.ProfileTest - --- Bắt đầu test: pro025_verifyAppointmentsTabActiveByDefault ---
+2026-03-23 13:46:37 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: pro025_verifyAppointmentsTabActiveByDefault
+2026-03-23 13:46:37 [main] INFO  com.insove.tests.ProfileTest -   Step: Đăng nhập và mở trang Hồ sơ
+2026-03-23 13:46:38 [main] INFO  com.insove.pages.LoginPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/login
+2026-03-23 13:46:38 [main] INFO  com.insove.pages.LoginPage - Mở trang /login
+2026-03-23 13:46:39 [main] INFO  com.insove.pages.LoginPage - Click nút Đăng nhập
+2026-03-23 13:46:40 [main] INFO  com.insove.pages.ProfilePage - Điều hướng đến: https://demo6.cybersoft.edu.vn/user-info
+2026-03-23 13:46:40 [main] INFO  com.insove.pages.ProfilePage - Mo trang Ho so nguoi dung
+2026-03-23 13:46:42 [main] INFO  com.insove.tests.ProfileTest -   Step: Kiểm tra tab Lịch hẹn active mặc định
+2026-03-23 13:46:42 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: pro025_verifyAppointmentsTabActiveByDefault
+2026-03-23 13:46:42 [main] INFO  com.insove.tests.ProfileTest - PASS: pro025_verifyAppointmentsTabActiveByDefault
+2026-03-23 13:46:42 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:46:42 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:46:42 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:46:42 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:46:43 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:46:43 [main] INFO  com.insove.tests.ProfileTest - --- Bắt đầu test: pro026_verifyTabContentSwitch ---
+2026-03-23 13:46:43 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: pro026_verifyTabContentSwitch
+2026-03-23 13:46:43 [main] INFO  com.insove.tests.ProfileTest -   Step: Đăng nhập và mở trang Hồ sơ
+2026-03-23 13:46:44 [main] INFO  com.insove.pages.LoginPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/login
+2026-03-23 13:46:44 [main] INFO  com.insove.pages.LoginPage - Mở trang /login
+2026-03-23 13:46:45 [main] INFO  com.insove.pages.LoginPage - Click nút Đăng nhập
+2026-03-23 13:46:46 [main] INFO  com.insove.pages.ProfilePage - Điều hướng đến: https://demo6.cybersoft.edu.vn/user-info
+2026-03-23 13:46:46 [main] INFO  com.insove.pages.ProfilePage - Mo trang Ho so nguoi dung
+2026-03-23 13:46:48 [main] INFO  com.insove.tests.ProfileTest -   Step: Click tab Đơn thuốc
+2026-03-23 13:46:48 [main] INFO  com.insove.pages.ProfilePage - Click tab index 2
+2026-03-23 13:46:48 [main] INFO  com.insove.tests.ProfileTest -   Step: Click tab Hóa đơn
+2026-03-23 13:46:48 [main] INFO  com.insove.pages.ProfilePage - Click tab index 3
+2026-03-23 13:46:48 [main] INFO  com.insove.tests.ProfileTest -   Step: Click lại tab Lịch hẹn
+2026-03-23 13:46:48 [main] INFO  com.insove.pages.ProfilePage - Click tab index 0
+2026-03-23 13:46:48 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: pro026_verifyTabContentSwitch
+2026-03-23 13:46:48 [main] INFO  com.insove.tests.ProfileTest - PASS: pro026_verifyTabContentSwitch
+2026-03-23 13:46:48 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:46:48 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:46:48 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:46:48 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:46:49 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:46:49 [main] INFO  com.insove.tests.ProfileTest - --- Bắt đầu test: pro029_verifyEmptyAppointmentMessage ---
+2026-03-23 13:46:49 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: pro029_verifyEmptyAppointmentMessage
+2026-03-23 13:46:49 [main] INFO  com.insove.tests.ProfileTest -   Step: Đăng nhập và mở trang Hồ sơ
+2026-03-23 13:46:50 [main] INFO  com.insove.pages.LoginPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/login
+2026-03-23 13:46:50 [main] INFO  com.insove.pages.LoginPage - Mở trang /login
+2026-03-23 13:46:51 [main] INFO  com.insove.pages.LoginPage - Click nút Đăng nhập
+2026-03-23 13:46:52 [main] INFO  com.insove.pages.ProfilePage - Điều hướng đến: https://demo6.cybersoft.edu.vn/user-info
+2026-03-23 13:46:52 [main] INFO  com.insove.pages.ProfilePage - Mo trang Ho so nguoi dung
+2026-03-23 13:46:54 [main] INFO  com.insove.tests.ProfileTest -   Step: Kiểm tra nội dung tab Lịch hẹn
+2026-03-23 13:47:24 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: pro029_verifyEmptyAppointmentMessage
+2026-03-23 13:47:24 [main] INFO  com.insove.tests.ProfileTest - PASS: pro029_verifyEmptyAppointmentMessage
+2026-03-23 13:47:24 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:47:24 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:47:24 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:47:24 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:47:25 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:47:25 [main] INFO  com.insove.tests.ProfileTest - --- Bắt đầu test: pro038_verifyEmptyWaitlistTab ---
+2026-03-23 13:47:25 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: pro038_verifyEmptyWaitlistTab
+2026-03-23 13:47:25 [main] INFO  com.insove.tests.ProfileTest -   Step: Đăng nhập và mở trang Hồ sơ
+2026-03-23 13:47:26 [main] INFO  com.insove.pages.LoginPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/login
+2026-03-23 13:47:26 [main] INFO  com.insove.pages.LoginPage - Mở trang /login
+2026-03-23 13:47:27 [main] INFO  com.insove.pages.LoginPage - Click nút Đăng nhập
+2026-03-23 13:47:28 [main] INFO  com.insove.pages.ProfilePage - Điều hướng đến: https://demo6.cybersoft.edu.vn/user-info
+2026-03-23 13:47:28 [main] INFO  com.insove.pages.ProfilePage - Mo trang Ho so nguoi dung
+2026-03-23 13:47:30 [main] INFO  com.insove.tests.ProfileTest -   Step: Click tab Danh sách chờ
+2026-03-23 13:47:30 [main] INFO  com.insove.pages.ProfilePage - Click tab index 1
+2026-03-23 13:47:30 [main] INFO  com.insove.tests.ProfileTest -   Step: Kiểm tra nội dung tab hiển thị (không bị lỗi crash)
+2026-03-23 13:47:30 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: pro038_verifyEmptyWaitlistTab
+2026-03-23 13:47:30 [main] INFO  com.insove.tests.ProfileTest - PASS: pro038_verifyEmptyWaitlistTab
+2026-03-23 13:47:30 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:47:30 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:47:30 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:47:30 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:47:31 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:47:31 [main] INFO  com.insove.tests.ProfileTest - --- Bắt đầu test: pro039_verifyEmptyPrescriptionTab ---
+2026-03-23 13:47:31 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: pro039_verifyEmptyPrescriptionTab
+2026-03-23 13:47:31 [main] INFO  com.insove.tests.ProfileTest -   Step: Đăng nhập và mở trang Hồ sơ
+2026-03-23 13:47:32 [main] INFO  com.insove.pages.LoginPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/login
+2026-03-23 13:47:32 [main] INFO  com.insove.pages.LoginPage - Mở trang /login
+2026-03-23 13:47:33 [main] INFO  com.insove.pages.LoginPage - Click nút Đăng nhập
+2026-03-23 13:47:35 [main] INFO  com.insove.pages.ProfilePage - Điều hướng đến: https://demo6.cybersoft.edu.vn/user-info
+2026-03-23 13:47:35 [main] INFO  com.insove.pages.ProfilePage - Mo trang Ho so nguoi dung
+2026-03-23 13:47:36 [main] INFO  com.insove.tests.ProfileTest -   Step: Click tab Đơn thuốc
+2026-03-23 13:47:36 [main] INFO  com.insove.pages.ProfilePage - Click tab index 2
+2026-03-23 13:47:36 [main] INFO  com.insove.tests.ProfileTest -   Step: Kiểm tra trang không bị crash
+2026-03-23 13:47:36 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: pro039_verifyEmptyPrescriptionTab
+2026-03-23 13:47:36 [main] INFO  com.insove.tests.ProfileTest - PASS: pro039_verifyEmptyPrescriptionTab
+2026-03-23 13:47:37 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:47:37 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:47:37 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:47:37 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:47:37 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:47:37 [main] INFO  com.insove.tests.ProfileTest - --- Bắt đầu test: pro040_verifyEmptyInvoiceTab ---
+2026-03-23 13:47:37 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: pro040_verifyEmptyInvoiceTab
+2026-03-23 13:47:37 [main] INFO  com.insove.tests.ProfileTest -   Step: Đăng nhập và mở trang Hồ sơ
+2026-03-23 13:47:38 [main] INFO  com.insove.pages.LoginPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/login
+2026-03-23 13:47:38 [main] INFO  com.insove.pages.LoginPage - Mở trang /login
+2026-03-23 13:47:40 [main] INFO  com.insove.pages.LoginPage - Click nút Đăng nhập
+2026-03-23 13:47:41 [main] INFO  com.insove.pages.ProfilePage - Điều hướng đến: https://demo6.cybersoft.edu.vn/user-info
+2026-03-23 13:47:41 [main] INFO  com.insove.pages.ProfilePage - Mo trang Ho so nguoi dung
+2026-03-23 13:47:42 [main] INFO  com.insove.tests.ProfileTest -   Step: Click tab Hóa đơn
+2026-03-23 13:47:42 [main] INFO  com.insove.pages.ProfilePage - Click tab index 3
+2026-03-23 13:47:42 [main] INFO  com.insove.tests.ProfileTest -   Step: Kiểm tra trang không bị crash
+2026-03-23 13:47:42 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: pro040_verifyEmptyInvoiceTab
+2026-03-23 13:47:42 [main] INFO  com.insove.tests.ProfileTest - PASS: pro040_verifyEmptyInvoiceTab
+2026-03-23 13:47:43 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:47:43 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:47:43 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:47:43 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:47:43 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:47:43 [main] INFO  com.insove.tests.ProfileTest - --- Bắt đầu test: pro054_verifySessionManagement ---
+2026-03-23 13:47:43 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: pro054_verifySessionManagement
+2026-03-23 13:47:43 [main] INFO  com.insove.tests.ProfileTest -   Step: Đăng nhập thành công
+2026-03-23 13:47:44 [main] INFO  com.insove.pages.LoginPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/login
+2026-03-23 13:47:44 [main] INFO  com.insove.pages.LoginPage - Mở trang /login
+2026-03-23 13:47:45 [main] INFO  com.insove.pages.LoginPage - Click nút Đăng nhập
+2026-03-23 13:47:45 [main] INFO  com.insove.tests.ProfileTest -   Step: Truy cập trang profile
+2026-03-23 13:47:46 [main] INFO  com.insove.pages.ProfilePage - Điều hướng đến: https://demo6.cybersoft.edu.vn/user-info
+2026-03-23 13:47:46 [main] INFO  com.insove.pages.ProfilePage - Mo trang Ho so nguoi dung
+2026-03-23 13:47:47 [main] INFO  com.insove.tests.ProfileTest -   Step: Kiểm tra session vẫn active khi điều hướng giữa các trang
+2026-03-23 13:47:48 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: pro054_verifySessionManagement
+2026-03-23 13:47:48 [main] INFO  com.insove.tests.ProfileTest - PASS: pro054_verifySessionManagement
+2026-03-23 13:47:48 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:47:48 [main] INFO  com.insove.utils.DriverManager - Khởi tạo driver: chrome | headless: false
+2026-03-23 13:47:48 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+2026-03-23 13:47:48 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+2026-03-23 13:47:49 [main] INFO  com.insove.utils.DriverManager - Driver khởi tạo thành công
+2026-03-23 13:47:49 [main] INFO  com.insove.tests.ProfileTest - --- Bắt đầu test: pro055_verifyNoSensitiveDataInUrl ---
+2026-03-23 13:47:49 [main] INFO  com.insove.listeners.TestListener - ▶ BẮT ĐẦU TEST: pro055_verifyNoSensitiveDataInUrl
+2026-03-23 13:47:49 [main] INFO  com.insove.tests.ProfileTest -   Step: Đăng nhập và mở trang Hồ sơ
+2026-03-23 13:47:50 [main] INFO  com.insove.pages.LoginPage - Điều hướng đến: https://demo6.cybersoft.edu.vn/login
+2026-03-23 13:47:50 [main] INFO  com.insove.pages.LoginPage - Mở trang /login
+2026-03-23 13:47:51 [main] INFO  com.insove.pages.LoginPage - Click nút Đăng nhập
+2026-03-23 13:47:52 [main] INFO  com.insove.pages.ProfilePage - Điều hướng đến: https://demo6.cybersoft.edu.vn/user-info
+2026-03-23 13:47:52 [main] INFO  com.insove.pages.ProfilePage - Mo trang Ho so nguoi dung
+2026-03-23 13:47:54 [main] INFO  com.insove.tests.ProfileTest -   Step: Kiểm tra URL không chứa mật khẩu hoặc token dạng rõ
+2026-03-23 13:47:54 [main] INFO  com.insove.listeners.TestListener - ✅ PASS: pro055_verifyNoSensitiveDataInUrl
+2026-03-23 13:47:54 [main] INFO  com.insove.tests.ProfileTest - PASS: pro055_verifyNoSensitiveDataInUrl
+2026-03-23 13:47:54 [main] INFO  com.insove.utils.DriverManager - Driver đã được đóng
+2026-03-23 13:47:54 [main] INFO  com.insove.listeners.TestListener - ========== KẾT THÚC: Profile Tests | Pass: 17 | Fail: 2 | Skip: 0 ==========
+2026-03-23 13:47:54 [main] INFO  c.insove.utils.ExtentReportManager - Report đã được lưu
+2026-03-23 13:47:54 [main] INFO  c.insove.utils.ExtentReportManager - Report đã được lưu
+2026-03-23 13:47:54 [main] INFO  com.insove.tests.ProfileTest - ===== KẾT THÚC TEST SUITE =====

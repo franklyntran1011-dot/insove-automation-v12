@@ -1,0 +1,160 @@
+<html>
+<head>
+<title>TestNG:  Authentication Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Authentication Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>16/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Mar 23 13:30:20 ICT 2026</td>
+</tr>
+<tr><td>Total time:</td><td>222 seconds (222667 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.insove.tests.AuthenticationTest.auth006_navigateToRegister()'><b>auth006_navigateToRegister</b><br>Test class: com.insove.tests.AuthenticationTest<br>Test method: [Auth006] Xác minh điều hướng đến trang Đăng ký</td>
+<td></td>
+<td>3</td>
+<td>com.insove.tests.AuthenticationTest@465232e9</td></tr>
+<tr>
+<td title='com.insove.tests.AuthenticationTest.auth013_passwordFieldIsHidden()'><b>auth013_passwordFieldIsHidden</b><br>Test class: com.insove.tests.AuthenticationTest<br>Test method: [Auth013] Xác minh trường mật khẩu ẩn ký tự (type=password)</td>
+<td></td>
+<td>0</td>
+<td>com.insove.tests.AuthenticationTest@465232e9</td></tr>
+<tr>
+<td title='com.insove.tests.AuthenticationTest.auth004_verifyPlaceholderText()'><b>auth004_verifyPlaceholderText</b><br>Test class: com.insove.tests.AuthenticationTest<br>Test method: [Auth004] Xác minh placeholder text của các trường nhập liệu</td>
+<td></td>
+<td>1</td>
+<td>com.insove.tests.AuthenticationTest@465232e9</td></tr>
+<tr>
+<td title='com.insove.tests.AuthenticationTest.auth017_loginFailWrongUsername()'><b>auth017_loginFailWrongUsername</b><br>Test class: com.insove.tests.AuthenticationTest<br>Test method: [Auth017] Xác minh đăng nhập thất bại với username không tồn tại</td>
+<td></td>
+<td>35</td>
+<td>com.insove.tests.AuthenticationTest@465232e9</td></tr>
+<tr>
+<td title='com.insove.tests.AuthenticationTest.auth076_loginLinkOnRegisterPage()'><b>auth076_loginLinkOnRegisterPage</b><br>Test class: com.insove.tests.AuthenticationTest<br>Test method: [Auth076] Xác minh link 'Already have an account? Login here' điều hướng đến trang Đăng nhập</td>
+<td></td>
+<td>3</td>
+<td>com.insove.tests.AuthenticationTest@465232e9</td></tr>
+<tr>
+<td title='com.insove.tests.AuthenticationTest.auth068_passwordMismatch()'><b>auth068_passwordMismatch</b><br>Test class: com.insove.tests.AuthenticationTest<br>Test method: [Auth068] Xác minh lỗi khi Password và Confirm Password không khớp</td>
+<td></td>
+<td>18</td>
+<td>com.insove.tests.AuthenticationTest@465232e9</td></tr>
+<tr>
+<td title='com.insove.tests.AuthenticationTest.auth041_forgotPasswordEmailNotExist()'><b>auth041_forgotPasswordEmailNotExist</b><br>Test class: com.insove.tests.AuthenticationTest<br>Test method: [Auth041] Gửi yêu cầu đặt lại mật khẩu với email không tồn tại</td>
+<td></td>
+<td>18</td>
+<td>com.insove.tests.AuthenticationTest@465232e9</td></tr>
+<tr>
+<td title='com.insove.tests.AuthenticationTest.auth042_forgotPasswordEmptyEmail()'><b>auth042_forgotPasswordEmptyEmail</b><br>Test class: com.insove.tests.AuthenticationTest<br>Test method: [Auth042] Gửi yêu cầu đặt lại mật khẩu khi để trống email</td>
+<td></td>
+<td>3</td>
+<td>com.insove.tests.AuthenticationTest@465232e9</td></tr>
+<tr>
+<td title='com.insove.tests.AuthenticationTest.auth043_forgotPasswordInvalidEmailFormat()'><b>auth043_forgotPasswordInvalidEmailFormat</b><br>Test class: com.insove.tests.AuthenticationTest<br>Test method: [Auth043] Gửi yêu cầu đặt lại mật khẩu với email sai định dạng</td>
+<td></td>
+<td>18</td>
+<td>com.insove.tests.AuthenticationTest@465232e9</td></tr>
+<tr>
+<td title='com.insove.tests.AuthenticationTest.auth056_verifyRegisterPageDisplay()'><b>auth056_verifyRegisterPageDisplay</b><br>Test class: com.insove.tests.AuthenticationTest<br>Test method: [Auth056] Xác minh hiển thị chính xác các thành phần trang Đăng ký</td>
+<td></td>
+<td>1</td>
+<td>com.insove.tests.AuthenticationTest@465232e9</td></tr>
+<tr>
+<td title='com.insove.tests.AuthenticationTest.auth033_verifyForgotPasswordPage()'><b>auth033_verifyForgotPasswordPage</b><br>Test class: com.insove.tests.AuthenticationTest<br>Test method: [Auth033] Xác minh hiển thị chính xác trang Quên Mật Khẩu</td>
+<td></td>
+<td>1</td>
+<td>com.insove.tests.AuthenticationTest@465232e9</td></tr>
+<tr>
+<td title='com.insove.tests.AuthenticationTest.auth065_registerEmptyRequiredFields()'><b>auth065_registerEmptyRequiredFields</b><br>Test class: com.insove.tests.AuthenticationTest<br>Test method: [Auth065] Xác minh thông báo lỗi khi để trống các trường bắt buộc khi đăng ký</td>
+<td></td>
+<td>18</td>
+<td>com.insove.tests.AuthenticationTest@465232e9</td></tr>
+<tr>
+<td title='com.insove.tests.AuthenticationTest.auth007_navigateToForgotPassword()'><b>auth007_navigateToForgotPassword</b><br>Test class: com.insove.tests.AuthenticationTest<br>Test method: [Auth007] Xác minh điều hướng đến trang Quên Mật Khẩu</td>
+<td></td>
+<td>3</td>
+<td>com.insove.tests.AuthenticationTest@465232e9</td></tr>
+<tr>
+<td title='com.insove.tests.AuthenticationTest.auth019_loginFailEmptyFields()'><b>auth019_loginFailEmptyFields</b><br>Test class: com.insove.tests.AuthenticationTest<br>Test method: [Auth019] Thông báo lỗi khi để trống trường đăng nhập</td>
+<td></td>
+<td>34</td>
+<td>com.insove.tests.AuthenticationTest@465232e9</td></tr>
+<tr>
+<td title='com.insove.tests.AuthenticationTest.auth001_verifyLoginPageDisplay()'><b>auth001_verifyLoginPageDisplay</b><br>Test class: com.insove.tests.AuthenticationTest<br>Test method: [Auth001] Xác minh hiển thị chính xác của trang Đăng nhập</td>
+<td></td>
+<td>1</td>
+<td>com.insove.tests.AuthenticationTest@465232e9</td></tr>
+<tr>
+<td title='com.insove.tests.AuthenticationTest.auth018_loginFailWrongPassword()'><b>auth018_loginFailWrongPassword</b><br>Test class: com.insove.tests.AuthenticationTest<br>Test method: [Auth018] Xác minh đăng nhập thất bại với mật khẩu sai</td>
+<td></td>
+<td>35</td>
+<td>com.insove.tests.AuthenticationTest@465232e9</td></tr>
+</table><p>
+</body>
+</html>

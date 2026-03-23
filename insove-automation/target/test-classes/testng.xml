@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Insove Automation Suite" verbose="2" parallel="none">
+
+    <listeners>
+        <listener class-name="com.insove.listeners.TestListener"/>
+    </listeners>
+
+    <!-- ==================== AUTHENTICATION ==================== -->
+    <test name="Authentication Tests">
+        <classes>
+            <class name="com.insove.tests.AuthenticationTest">
+                <methods>
+                    <include name="auth001_verifyLoginPageDisplay"/>
+                    <include name="auth004_verifyPlaceholderText"/>
+                    <include name="auth006_navigateToRegister"/>
+                    <include name="auth007_navigateToForgotPassword"/>
+                    <!-- auth011 skip: login redirect timing issue -->
+                    <include name="auth013_passwordFieldIsHidden"/>
+                    <include name="auth017_loginFailWrongUsername"/>
+                    <include name="auth018_loginFailWrongPassword"/>
+                    <include name="auth019_loginFailEmptyFields"/>
+                    <include name="auth033_verifyForgotPasswordPage"/>
+                    <include name="auth041_forgotPasswordEmailNotExist"/>
+                    <include name="auth042_forgotPasswordEmptyEmail"/>
+                    <include name="auth043_forgotPasswordInvalidEmailFormat"/>
+                    <!-- auth050 skip: logout dropdown timing issue -->
+                    <!-- auth052 skip: depends on auth050 -->
+                    <include name="auth056_verifyRegisterPageDisplay"/>
+                    <include name="auth065_registerEmptyRequiredFields"/>
+                    <include name="auth068_passwordMismatch"/>
+                    <include name="auth076_loginLinkOnRegisterPage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- ==================== HOMEPAGE ==================== -->
+    <test name="HomePage Tests">
+        <classes>
+            <class name="com.insove.tests.HomePageTest">
+                <methods>
+                    <include name="home001_verifyHomepageOverview"/>
+                    <include name="home004_verifyLogoDisplay"/>
+                    <include name="home005_verifyMainMenuItems"/>
+                    <include name="home008_verifyStickyHeader"/>
+                    <include name="home012_verifyHeroTitle"/>
+                    <include name="home014_verifyContactButton"/>
+                    <include name="home022_verifyFaqTitle"/>
+                    <include name="home023_verifyFaqInteractable"/>
+                    <include name="home029_verifyRecentArticlesTitle"/>
+                    <include name="home030_verifyMinThreeArticles"/>
+                    <include name="home037_verifyCopyright"/>
+                    <include name="home053_verifySubscribeForm"/>
+                    <include name="home055_subscribeInvalidEmail"/>
+                    <include name="home056_subscribeEmptyEmail"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- ==================== BOOKING ==================== -->
+    <test name="Booking Tests">
+        <classes>
+            <class name="com.insove.tests.BookingTest">
+                <methods>
+                    <include name="book001_verifyAllSectionsDisplayed"/>
+                    <include name="book003_verifyLabelsAndPlaceholders"/>
+                    <include name="book006_verifyPageLoadTime"/>
+                    <include name="book008_verifyBranchDropdown"/>
+                    <include name="book009_verifyBranchList"/>
+                    <include name="book010_errorWhenNoBranchSelected"/>
+                    <include name="book011_doctorListUpdatesByBranch"/>
+                    <include name="book018_verifyCalendarShowsCurrentMonth"/>
+                    <include name="book019_verifyCalendarNavigation"/>
+                    <include name="book021_verifyDaySelection"/>
+                    <include name="book026_verifyTimeSlotSelection"/>
+                    <include name="book030_verifyServicePackagesDisplay"/>
+                    <include name="book032_verifyOnlyOneServiceSelectable"/>
+                    <include name="book038_verifyNoteFieldMultiline"/>
+                    <include name="book039_verifyNotePlaceholder"/>
+                    <include name="book043_verifySubmitButtonBehavior"/>
+                    <include name="book045_verifySuccessAfterBooking"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- ==================== PROFILE ==================== -->
+    <test name="Profile Tests">
+        <classes>
+            <class name="com.insove.tests.ProfileTest">
+                <methods>
+                    <include name="pro001_verifyProfilePageLoads"/>
+                    <include name="pro002_verifyProfileLoadTime"/>
+                    <include name="pro003_verifyProfileUrl"/>
+                    <include name="pro004_verifyAvatarDisplay"/>
+                    <include name="pro005_verifyUserNameAndEmailDisplay"/>
+                    <include name="pro006_verifyPersonalInfoLabels"/>
+                    <include name="pro010_verifyChangePasswordButtonDisplayed"/>
+                    <include name="pro011_verifyChangePasswordFormOpens"/>
+                    <include name="pro015_errorOnWrongCurrentPassword"/>
+                    <include name="pro016_passwordMismatchError"/>
+                    <include name="pro024_verifyAllTabsDisplayed"/>
+                    <include name="pro025_verifyAppointmentsTabActiveByDefault"/>
+                    <include name="pro026_verifyTabContentSwitch"/>
+                    <include name="pro029_verifyEmptyAppointmentMessage"/>
+                    <include name="pro038_verifyEmptyWaitlistTab"/>
+                    <include name="pro039_verifyEmptyPrescriptionTab"/>
+                    <include name="pro040_verifyEmptyInvoiceTab"/>
+                    <include name="pro054_verifySessionManagement"/>
+                    <include name="pro055_verifyNoSensitiveDataInUrl"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
