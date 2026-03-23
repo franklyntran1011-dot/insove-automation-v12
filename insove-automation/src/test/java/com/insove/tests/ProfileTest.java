@@ -14,10 +14,7 @@ import org.testng.annotations.Test;
  *         Pro038~Pro040, Pro054~Pro055
  */
 public class ProfileTest extends BaseTest {
-
-    /**
-     * Helper: Login + wait for redirect + open profile
-     */
+        
     private ProfilePage loginAndOpenProfile() {
         LoginPage loginPage = new LoginPage().open();
         loginPage.loginWith(ConfigReader.getValidUsername(), ConfigReader.getValidPassword());

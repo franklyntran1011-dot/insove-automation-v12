@@ -5,20 +5,14 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import java.util.List;
 
-/**
- * Page Object cho trang Dat Lich Kham
- * URL: /booking
- */
 public class BookingPage extends BasePage {
 
-    // Sections - broad selectors
     private final By branchSection   = By.cssSelector("form, [class*='booking'], [class*='form'], main section:first-of-type");
     private final By dateTimeSection = By.cssSelector("[class*='calendar'],[class*='date-picker'],[class*='rdp'],[class*='datepicker'],input[type='date']");
     private final By serviceSection  = By.cssSelector("[class*='service'],[class*='package'],[class*='plan']");
     private final By noteSection     = By.cssSelector("textarea,[class*='note'],[class*='additional']");
     private final By submitButton    = By.cssSelector("button[type='submit'],button[class*='btn-primary']");
 
-    // Branch dropdown - thu nhieu selector
     private final By branchDropdown  = By.cssSelector(
         "select[name*='branch'], [class*='branch'] select, " +
         "[class*='select'][class*='branch'], [id*='branch']");
@@ -32,29 +26,23 @@ public class BookingPage extends BasePage {
         "select[name*='doctor'] option, [class*='doctor'] option, " +
         "[class*='option'][class*='doctor']");
 
-    // Calendar
     private final By calendar        = By.cssSelector("[class*='calendar'],[class*='datepicker'],[class*='rdp']");
     private final By calendarDays    = By.cssSelector("[class*='day']:not([class*='disabled']):not([class*='outside'])");
     private final By prevMonthBtn    = By.cssSelector("button[aria-label*='previous'],button[aria-label*='prev'],[class*='prev']");
     private final By nextMonthBtn    = By.cssSelector("button[aria-label*='next'],[class*='next']");
     private final By calendarTitle   = By.cssSelector("[class*='caption'],[class*='month-year'],[class*='month']");
 
-    // Time slots
     private final By timeSlots       = By.cssSelector("[class*='slot'] button,[class*='time'] button");
     private final By noSlotMessage   = By.cssSelector("[class*='no-slot'],[class*='empty']");
 
-    // Service packages
     private final By serviceCards    = By.cssSelector("[class*='package-card'],[class*='service-package'],[class*='price-card']");
     private final By serviceSelectBtns = By.cssSelector("[class*='package'] button,[class*='service'] button[class*='primary']");
 
-    // Note field
     private final By noteField       = By.cssSelector("textarea");
 
-    // Error/Success
     private final By errorMessages   = By.cssSelector(".alert-danger,.text-danger,.invalid-feedback");
     private final By successMessage  = By.cssSelector(".alert-success,[class*='success']");
 
-    // ── Actions ──────────────────────────────────────────────────────
     public BookingPage open() {
         navigateTo("/booking");
         log.info("Mo trang Dat lich kham");
@@ -126,7 +114,6 @@ public class BookingPage extends BasePage {
         try { jsClick(nextMonthBtn); } catch (Exception ignored) {}
     }
 
-    // ── Verifications ─────────────────────────────────────────────────
     public boolean isBranchSectionDisplayed()   { return isDisplayed(branchSection); }
     public boolean isDateTimeSectionDisplayed()  { return isDisplayed(calendar) || isDisplayed(dateTimeSection); }
     public boolean isServiceSectionDisplayed()   { return isDisplayed(serviceSection) || driver.findElements(serviceCards).size() > 0; }

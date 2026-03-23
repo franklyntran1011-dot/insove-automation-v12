@@ -4,10 +4,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 
-/**
- * Page Object cho trang Quên Mật Khẩu
- * URL: /forgot-password
- */
 public class ForgotPasswordPage extends BasePage {
 
     private final By emailField   = By.cssSelector("input[type='email'], input[name='email']");

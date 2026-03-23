@@ -12,12 +12,6 @@ import org.testng.ITestResult;
 
 import java.util.Base64;
 
-/**
- * TestNG Listener — tự động:
- * - Ghi log mỗi test
- * - Chụp screenshot khi FAIL
- * - Đính screenshot vào ExtentReport
- */
 public class TestListener implements ITestListener {
     private static final Logger log = LoggerFactory.getLogger(TestListener.class);
 

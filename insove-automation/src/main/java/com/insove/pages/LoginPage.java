@@ -6,18 +6,8 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 
-/**
- * Page Object — Trang Đăng nhập
- * URL: demo6.cybersoft.edu.vn/login
- *
- * HTML đã verify qua DevTools + Console:
- *   input[name='username'], input[name='password']
- *   button.btn.btn-primary.btn-pill.btn-lg.mt-3  (NodeList có 1 button duy nhất)
- *   a[href='/forgot-password']
- */
 public class LoginPage extends BasePage {
 
-    // ── Locators ──────────────────────────────────────────────────────
     private final By usernameField  = By.cssSelector("input[name='username']");
     private final By passwordField  = By.cssSelector("input[name='password']");
     private final By loginButton    = By.cssSelector("button.btn.btn-primary.btn-pill.btn-lg");
@@ -27,7 +17,6 @@ public class LoginPage extends BasePage {
     private final By pageTitle      = By.xpath("//h1[contains(.,'Đăng nhập')]");
     private final By breadcrumb     = By.cssSelector(".breadcrumb");
 
-    // ── Actions ───────────────────────────────────────────────────────
     public LoginPage open() {
         navigateTo("/login");
         log.info("Mở trang /login");
@@ -53,7 +42,6 @@ public class LoginPage extends BasePage {
     public void clickLogin() {
         dismissToast();
         try {
-            // Chờ button clickable rồi Selenium click
             WebElement btn = WaitUtil.waitForClickable(loginButton);
             ((JavascriptExecutor) driver).executeScript(
                 "arguments[0].scrollIntoView({block:'center'})", btn);
@@ -61,7 +49,6 @@ public class LoginPage extends BasePage {
             btn.click();
             log.info("Click nút Đăng nhập");
         } catch (Exception e) {
-            // Fallback: nhấn Enter
             log.warn("Click failed, thử Enter: {}", e.getMessage());
             try {
                 driver.findElement(passwordField).sendKeys(Keys.ENTER);
@@ -95,7 +82,6 @@ public class LoginPage extends BasePage {
         } catch (Exception ignored) {}
     }
 
-    // ── Verifications ─────────────────────────────────────────────────
     public boolean isLoginPageDisplayed() {
         return isDisplayed(usernameField) && isDisplayed(passwordField);
     }

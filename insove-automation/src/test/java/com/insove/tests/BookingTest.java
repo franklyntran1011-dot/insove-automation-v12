@@ -15,13 +15,9 @@ import org.testng.annotations.Test;
  */
 public class BookingTest extends BaseTest {
 
-    /**
-     * Helper: Login + wait for redirect + open booking
-     */
     private BookingPage loginAndOpenBooking() {
         LoginPage loginPage = new LoginPage().open();
         loginPage.loginWith(ConfigReader.getValidUsername(), ConfigReader.getValidPassword());
-        // Chờ login redirect xong
         for (int i = 0; i < 16; i++) {
             try { Thread.sleep(500); } catch (Exception ignored) {}
             if (!com.insove.utils.DriverManager.getDriver().getCurrentUrl().contains("/login")) break;

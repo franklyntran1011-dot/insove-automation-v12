@@ -5,13 +5,8 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import java.util.List;
 
-/**
- * Page Object - Trang Ho So Nguoi Dung
- * URL: /user-info
- */
 public class ProfilePage extends BasePage {
 
-    // Personal info - broad selectors
     private final By avatar           = By.cssSelector("[style*='border-radius: 50%'],[style*='border-radius:50%'],[class*='avatar'],[class*='Avatar']");
     private final By userName         = By.cssSelector("[class*='user-name'],[class*='username'],[class*='profile-name'],[class*='name'] h4,[class*='name'] h5");
     private final By userEmail        = By.cssSelector("[class*='user-email'],[class*='profile-email'],[class*='email'] p,[class*='email'] span");
@@ -19,20 +14,16 @@ public class ProfilePage extends BasePage {
     private final By addressLabel     = By.cssSelector("[class*='address'],[class*='Address'],[class*='location']");
     private final By joinDateLabel    = By.cssSelector("[class*='join'],[class*='Join'],[class*='date'],[class*='member']");
 
-    // Tabs - dung href hoac data attribute thay vi text
     private final By appointmentsTab  = By.cssSelector("a[href*='appointment'],button[data-tab*='appointment'],[class*='tab']:nth-child(1)");
     private final By waitlistTab      = By.cssSelector("a[href*='waitlist'],button[data-tab*='wait'],[class*='tab']:nth-child(2)");
     private final By prescriptionTab  = By.cssSelector("a[href*='prescription'],button[data-tab*='prescription'],[class*='tab']:nth-child(3)");
     private final By invoiceTab       = By.cssSelector("a[href*='invoice'],button[data-tab*='invoice'],[class*='tab']:nth-child(4)");
 
-    // Fallback tabs - dung index
     private final By allTabs          = By.cssSelector("[class*='tab-item'],[class*='nav-item'],[role='tab'],.nav-link");
 
-    // Appointments
     private final By noAppointmentMsg = By.cssSelector("[class*='empty'],[class*='no-data'],[class*='no-appointment']");
     private final By appointmentCards = By.cssSelector("[class*='appointment-card'],[class*='booking-item']");
 
-    // Change Password
     private final By changePasswordBtn = By.cssSelector("button[class*='btn-outline'],button[class*='change-pass'],[class*='change-password']");
     private final By currentPassField  = By.cssSelector("input[name='currentPassword'],input[type='password']:nth-of-type(1)");
     private final By newPassField      = By.cssSelector("input[name='newPassword'],input[type='password']:nth-of-type(2)");
@@ -40,12 +31,10 @@ public class ProfilePage extends BasePage {
     private final By updatePassBtn     = By.cssSelector("button[type='submit'],[class*='update'],[class*='save']");
     private final By passErrorMsg      = By.cssSelector(".alert-danger,.text-danger,.invalid-feedback");
 
-    // Header dropdown
     private final By headerDropdownBtn = By.cssSelector("div.dropdown.user-dropdown button.btn-link");
     private final By logoutMenuItem    = By.cssSelector("a[href*='logout'],[class*='logout'],[onclick*='logout']");
     private final By logoutByText      = By.xpath("//*[normalize-space(text())='\u0110\u0103ng xu\u1ea5t' or normalize-space(text())='Logout']");
 
-    // ── Actions ───────────────────────────────────────────────────────
     public ProfilePage open() {
         navigateTo("/user-info");
         log.info("Mo trang Ho so nguoi dung");
@@ -54,7 +43,6 @@ public class ProfilePage extends BasePage {
     }
 
     public void clickTab(String tabName) {
-        // Dung index thay vi text tieng Viet
         int index;
         switch (tabName.toLowerCase()) {
             case "lich hen":
@@ -80,7 +68,6 @@ public class ProfilePage extends BasePage {
 
     public void clickChangePassword() {
         try { jsClick(changePasswordBtn); } catch (Exception e) {
-            // Fallback: tim nut chua text doi mat khau
             try {
                 WebElement btn = driver.findElements(By.cssSelector("button"))
                     .stream().filter(b -> b.getText().contains("i m"))
@@ -103,7 +90,6 @@ public class ProfilePage extends BasePage {
         dismissToast();
         try { Thread.sleep(500); } catch (Exception ignored) {}
 
-        // Click dropdown button
         try {
             WebElement btn = driver.findElement(headerDropdownBtn);
             jsClick(btn);
@@ -120,7 +106,6 @@ public class ProfilePage extends BasePage {
 
         try { Thread.sleep(600); } catch (Exception ignored) {}
 
-        // Click Dang xuat
         try {
             WebElement logoutBtn = driver.findElement(logoutByText);
             jsClick(logoutBtn);
@@ -143,7 +128,6 @@ public class ProfilePage extends BasePage {
         } catch (Exception ignored) {}
     }
 
-    // ── Verifications ─────────────────────────────────────────────────
     public boolean isAvatarDisplayed()           { return isDisplayed(avatar); }
     public boolean isUserNameDisplayed()          { return isDisplayed(userName); }
     public boolean isUserEmailDisplayed()         { return isDisplayed(userEmail); }

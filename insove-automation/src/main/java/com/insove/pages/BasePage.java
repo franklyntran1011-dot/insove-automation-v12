@@ -12,9 +12,6 @@ import org.openqa.selenium.support.ui.Select;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-/**
- * Base class cho tất cả Page Object — chứa các phương thức dùng chung
- */
 public abstract class BasePage {
     protected final Logger log = LoggerFactory.getLogger(getClass());
     protected WebDriver driver;
@@ -24,14 +21,12 @@ public abstract class BasePage {
         PageFactory.initElements(driver, this);
     }
 
-    // ───── Navigation ─────
     protected void navigateTo(String path) {
         String url = ConfigReader.getBaseUrl() + path;
         driver.get(url);
         log.info("Điều hướng đến: {}", url);
     }
 
-    // ───── Click ─────
     protected void click(By locator) {
         WaitUtil.waitForClickable(locator).click();
         log.debug("Click: {}", locator);
@@ -55,7 +50,6 @@ public abstract class BasePage {
         ((JavascriptExecutor) driver).executeScript("arguments[0].click();", element);
     }
 
-    // ───── Input ─────
     protected void type(By locator, String text) {
         WebElement el = WaitUtil.waitForVisible(locator);
         el.clear();
@@ -69,7 +63,6 @@ public abstract class BasePage {
         el.sendKeys(text);
     }
 
-    // ───── Text & Attribute ─────
     protected String getText(By locator) {
         return WaitUtil.waitForVisible(locator).getText().trim();
     }
@@ -82,7 +75,6 @@ public abstract class BasePage {
         return getAttribute(locator, "placeholder");
     }
 
-    // ───── State ─────
     protected boolean isDisplayed(By locator) {
         try {
             return driver.findElement(locator).isDisplayed();
@@ -99,12 +91,10 @@ public abstract class BasePage {
         }
     }
 
-    // ───── Select ─────
     protected void selectByText(By locator, String text) {
         new Select(WaitUtil.waitForVisible(locator)).selectByVisibleText(text);
     }
 
-    // ───── Wait ─────
     protected void waitForUrl(String urlFragment) {
         WaitUtil.waitForUrlContains(urlFragment);
     }
@@ -113,7 +103,6 @@ public abstract class BasePage {
         WaitUtil.waitForTextPresent(locator, text);
     }
 
-    // ───── Page info ─────
     protected String getCurrentUrl() {
         return driver.getCurrentUrl();
     }
@@ -122,7 +111,6 @@ public abstract class BasePage {
         return driver.getTitle();
     }
 
-    // ───── JS Scroll ─────
     protected void scrollToElement(By locator) {
         WebElement el = driver.findElement(locator);
         ((JavascriptExecutor) driver).executeScript(

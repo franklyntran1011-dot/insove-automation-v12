@@ -11,10 +11,6 @@ import org.slf4j.LoggerFactory;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
 
-/**
- * Base class cho tất cả Test class
- * Xử lý: setup driver, teardown, screenshot khi fail, report
- */
 public abstract class BaseTest {
     protected final Logger log = LoggerFactory.getLogger(getClass());
 
